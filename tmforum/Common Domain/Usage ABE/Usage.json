@@ -1,1 +1,23 @@
-
+ {
+      "@id":"dtmi:sid:Common_Domain:Usage;1",
+      "@type":"Interface",
+      "displayName":"Usage",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":,
+       {
+            "@type":"Property",
+            "name":"usageDate",
+            "schema":"dateTime"
+       },
+       {
+            "@type":"Property",
+            "name":"usageStatus",
+            "schema":"integer"
+       },
+       {
+            "@type":"Component",
+            "name":"PartyRole",
+            "schema":"dtmi:sid:Common_Domain:PartyRole;1"
+       }
+      ]
+   }
