@@ -1,1 +1,15 @@
-
+ {
+      "@id":"dtmi:sid:Product_Domain:ProductBundleUsage;1",
+      "@type":"Interface",
+      "displayName":"ProductBundleUsage",
+      "extends":"dtmi:sid:Product_Domain:ProductUsage;1",
+      "extends":"dtmi:sid:Common_Domain:Usage;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Component",
+            "name":"ProductUsage",
+            "schema":"dtmi:sid:Product_Domain:ProductUsage;1"
+         }
+      ]
+   }
