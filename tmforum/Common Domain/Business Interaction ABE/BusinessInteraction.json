@@ -18,6 +18,11 @@
             "@type":"Relationship",
             "name":"BusinessInteractionComprisedOf",
             "target":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionItem;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolves",
+            "target":"dtmi:smartdatamodels:Common_Domain:PartyRole;1"
          }
       ]
    }
