@@ -1,1 +1,18 @@
-
+ {
+      "@id":"dtmi:smartdatamodels:Common_Domain:EntitySpecification;1",
+      "@type":"Interface",
+      "displayName":"EntitySpecification",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"status",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"validFor",
+            "schema":"dateTime"
+         }
+      ]
+   }
