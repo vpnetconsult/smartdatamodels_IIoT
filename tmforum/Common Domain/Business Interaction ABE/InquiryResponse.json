@@ -1,14 +1,14 @@
  {
-      "@id":"dtmi:smartdatamodels:Common_Domain:InquiryResponse;1",
+      "@id":"dtmi:sid:Common_Domain:InquiryResponse;1",
       "@type":"Interface",
       "displayName":"InquiryResponse",
-      "extends":"dtmi:smartdatamodels:Common_Domain:BusinessInteraction;1",
+      "extends":"dtmi:sid:Common_Domain:BusinessInteraction;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
        {
             "@type":"Relationship",
             "name":"hasCustomer",
-            "target":"dtmi:smartdatamodels:Customer_Domain:Customer;1"
+            "target":"dtmi:sid:Customer_Domain:Customer;1"
          }
       ]
    }
