@@ -1,1 +1,16 @@
-
+ {
+      "@id":"dtmi:sid:Product_Domain:ProductBundle;1",
+      "@type":"Interface",
+      "displayName":"ProductBundle",
+      "extends":"dtmi:sid:Product_Domain:Product;1",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:EntitySpecification;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Component",
+            "name":"ProductBundleUsage",
+            "schema":"dtmi:sid:Product_Domain:ProductBundleUsage;1"
+         }
+      ]
+   }
