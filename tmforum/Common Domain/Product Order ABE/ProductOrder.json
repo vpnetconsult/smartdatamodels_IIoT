@@ -16,6 +16,21 @@
             "schema":"string"
        },
        {
+            "@type":"Property",
+            "name":"purchaseOrderNumber",
+            "schema":"string"
+       },
+       {
+            "@type":"Property",
+            "name":"requestedCompletionDate",
+            "schema":"dateTime"
+       },
+       {
+            "@type":"Property",
+            "name":"requestedStartDate",
+            "schema":"dateTime"
+       },
+       {
             "@type":"Relationship",
             "name":"hasCustomer",
             "target":"dtmi:smartdatamodels:Customer_Domain:Customer;1"
