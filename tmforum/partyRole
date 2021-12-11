@@ -1,5 +1,5 @@
    {
-      "@id":"dtmi:smartdatamodels:tmforum:PartyRole;1",
+      "@id":"dtmi:smartdatamodels:Common_Domain:PartyRole;1",
       "@type":"Interface",
       "displayName":"PartyRole",
       "@context":"dtmi:dtdl:context;2",
