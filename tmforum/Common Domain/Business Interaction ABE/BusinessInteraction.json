@@ -23,6 +23,11 @@
             "@type":"Relationship",
             "name":"BusinessInteractionItemInvolves",
             "target":"dtmi:smartdatamodels:Common_Domain:PartyRole;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionLocationSpecifiesThePlaceForBI",
+            "target":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionLocation;1"
          }
       ]
    }
