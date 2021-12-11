@@ -1,5 +1,5 @@
    {
-      "@id":"dtmi:smartdatamodels:Common_Domain:CommunicationInteractionRole;1",
+      "@id":"dtmi:sid:Common_Domain:CommunicationInteractionRole;1",
       "@type":"Interface",
       "displayName":"CommunicationInteractionRole",
       "@context":"dtmi:dtdl:context;2",
