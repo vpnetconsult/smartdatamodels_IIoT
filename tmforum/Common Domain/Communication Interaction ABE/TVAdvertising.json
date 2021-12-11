@@ -1,7 +1,7 @@
  {
-      "@id":"dtmi:smartdatamodels:Common_Domain:TVAdvertising;1",
+      "@id":"dtmi:sid:Common_Domain:TVAdvertising;1",
       "@type":"Interface",
       "displayName":"TVAdvertising",
-      "extends":"dtmi:smartdatamodels:Common_Domain:CommunicationInteractionMeans;1",
+      "extends":"dtmi:sid:Common_Domain:CommunicationInteractionMeans;1",
       "@context":"dtmi:dtdl:context;2"
    }
