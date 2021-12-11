@@ -1,1 +1,16 @@
-
+ {
+      "@id":"dtmi:sid:Product_Domain:BundledProductOffering;1",
+      "@type":"Interface",
+      "displayName":"BundledProductOffering",
+      "extends":"dtmi:sid:Product_Domain:ProductOffering;1",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:EntitySpecification;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"MainOffer",
+            "schema":"boolean"
+         }
+      ]
+   }
