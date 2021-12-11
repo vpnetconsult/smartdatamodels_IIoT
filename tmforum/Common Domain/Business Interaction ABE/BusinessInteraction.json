@@ -1,5 +1,5 @@
    {
-      "@id":"dtmi:smartdatamodels:Common_Domain:BusinessInteraction;1",
+      "@id":"dtmi:sid:Common_Domain:BusinessInteraction;1",
       "@type":"Interface",
       "displayName":"BusinessInteraction",
       "@context":"dtmi:dtdl:context;2",
@@ -37,7 +37,7 @@
          {
             "@type":"Relationship",
             "name":"BusinessInteractionLocationSpecifiesThePlaceForBI",
-            "target":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionLocation;1"
+            "target":"dtmi:sid:Common_Domain:BusinessInteractionLocation;1"
          }
       ]
    }
