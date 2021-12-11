@@ -1,1 +1,14 @@
-
+ {
+      "@id":"dtmi:smartdatamodels:Common_Domain:ProductOrder;1",
+      "@type":"Interface",
+      "displayName":"ProductOrder",
+      "extends":"dtmi:smartdatamodels:Common_Domain:RootEntity;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+       {
+            "@type":"Relationship",
+            "name":"hasCustomer",
+            "target":"dtmi:smartdatamodels:Customer_Domain:Customer;1"
+         }
+      ]
+   }
