@@ -1,5 +1,5 @@
  {
-      "@id":"dtmi:smartdatamodels:Common_Domain:CommunicationInteractionMeans;1",
+      "@id":"dtmi:sid:Common_Domain:CommunicationInteractionMeans;1",
       "@type":"Interface",
       "displayName":"CommunicationInteractionMeans",
       "@context":"dtmi:dtdl:context;2",
