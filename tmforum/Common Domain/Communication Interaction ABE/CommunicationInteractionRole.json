@@ -1,1 +1,19 @@
+   {
+      "@id":"dtmi:smartdatamodels:Common_Domain:CommunicationInteractionRole;1",
+      "@type":"Interface",
+      "displayName":"CommunicationInteractionRole",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"contactMedium",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"Media",
+            "schema":"string"
+         }
+      ]
+   }
 
