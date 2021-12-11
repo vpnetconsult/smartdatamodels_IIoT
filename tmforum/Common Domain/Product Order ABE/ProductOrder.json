@@ -1,8 +1,8 @@
  {
-      "@id":"dtmi:smartdatamodels:Common_Domain:ProductOrder;1",
+      "@id":"dtmi:sid:Common_Domain:ProductOrder;1",
       "@type":"Interface",
       "displayName":"ProductOrder",
-      "extends":"dtmi:smartdatamodels:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":,
        {
@@ -33,7 +33,7 @@
        {
             "@type":"Relationship",
             "name":"hasCustomer",
-            "target":"dtmi:smartdatamodels:Customer_Domain:Customer;1"
+            "target":"dtmi:sid:Customer_Domain:Customer;1"
          }
       ]
    }
