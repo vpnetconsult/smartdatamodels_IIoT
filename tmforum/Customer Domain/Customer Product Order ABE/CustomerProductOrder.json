@@ -1,1 +1,15 @@
-
+ {
+      "@id":"dtmi:smartdatamodels:Customer_Domain:CustomerProductOrder;1",
+      "@type":"Interface",
+      "displayName":"CustomerProductOrder",
+      "extends":"dtmi:smartdatamodels:Common_Domain:ProductOrder;1",
+      "extends":"dtmi:smartdatamodels:Common_Domain:RootEntity;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+       {
+            "@type":"Relationship",
+            "name":"CIConcernsCustomerProductOrder",
+            "target":"dtmi:smartdatamodels:Customer_Domain:CustomerCommunication;1"
+         }
+      ]
+   }
