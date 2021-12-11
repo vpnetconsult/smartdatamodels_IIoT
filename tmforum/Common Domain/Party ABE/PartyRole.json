@@ -13,6 +13,11 @@
             "@type":"Property",
             "name":"status",
             "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"PartyRoleInvolvedInCommunicationInteractionRole",
+            "target":"dtmi:smartdatamodels:Common_Domain:CommunicationInteractionRole;1"
          }
       ]
    }
