@@ -1,1 +1,13 @@
-
+   {
+      "@id":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionRole;1",
+      "@type":"Interface",
+      "displayName":"BusinessInteractionRole",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         }
+      ]
+   }
