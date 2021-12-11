@@ -1,1 +1,18 @@
-
+ {
+      "@id":"dtmi:smartdatamodels:Common_Domain:RootEntity;1",
+      "@type":"Interface",
+      "displayName":"RootEntity",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"interactionResult",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"interactionUseCase",
+            "schema":"string"
+         }
+      ]
+   }
