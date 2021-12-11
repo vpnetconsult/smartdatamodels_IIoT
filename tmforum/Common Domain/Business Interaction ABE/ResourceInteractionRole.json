@@ -1,5 +1,5 @@
    {
-      "@id":"dtmi:smartdatamodels:Common_Domain:ResourceInteractionRole;1",
+      "@id":"dtmi:sid:Common_Domain:ResourceInteractionRole;1",
       "@type":"Interface",
       "displayName":"ResourceInteractionRole",
       "@context":"dtmi:dtdl:context;2",
