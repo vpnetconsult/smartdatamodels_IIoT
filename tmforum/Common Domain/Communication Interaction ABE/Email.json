@@ -1,1 +1,8 @@
+{
+      "@id":"dtmi:smartdatamodels:Common_Domain:Email;1",
+      "@type":"Interface",
+      "displayName":"Email",
+      "extends":"dtmi:smartdatamodels:Common_Domain:CommunicationInteractionMeans;1",
+      "@context":"dtmi:dtdl:context;2"
+   }
 
