@@ -7,7 +7,7 @@
       "contents":[
        {
             "@type":"Relationship",
-            "name":"hasCustomer",
+            "name":"CustomerRequests",
             "target":"dtmi:smartdatamodels:Customer_Domain:Customer;1"
          }
       ]
