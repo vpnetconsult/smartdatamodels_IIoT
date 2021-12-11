@@ -15,6 +15,16 @@
             "schema":"string"
          },
          {
+            "@type":"Property",
+            "name":"startDate",
+            "schema":"dateTime"
+         },
+         {
+            "@type":"Property",
+            "name":"endDate",
+            "schema":"dateTime"
+         },
+         {
             "@type":"Relationship",
             "name":"BusinessInteractionComprisedOf",
             "target":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionItem;1"
