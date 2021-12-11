@@ -13,6 +13,11 @@
             "@type":"Property",
             "name":"status",
             "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionComprisedOf",
+            "target":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionItem;1"
          }
       ]
    }
