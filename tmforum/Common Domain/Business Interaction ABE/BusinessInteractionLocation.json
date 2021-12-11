@@ -1,1 +1,18 @@
-
+   {
+      "@id":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionLocation;1",
+      "@type":"Interface",
+      "displayName":"BusinessInteractionLocation",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"locationRole",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"place",
+            "schema":"string"
+         }
+      ]
+   }
