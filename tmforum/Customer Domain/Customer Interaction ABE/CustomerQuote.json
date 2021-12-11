@@ -2,7 +2,7 @@
       "@id":"dtmi:smartdatamodels:Customer_Domain:CustomerQuote;1",
       "@type":"Interface",
       "displayName":"CustomerQuote",
-      "extends":"dtmi:smartdatamodels:Customer_Domain:BusinessInteraction;1",
+      "extends":"dtmi:smartdatamodels:Common_Domain:BusinessInteraction;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
        {
