@@ -17,8 +17,8 @@
          },
          {
             "@type":"Relationship",
-            "name":"hasAgriSoil",
-            "target":"dtmi:smartdatamodels:agri:AgriSoil;1"
+            "name":"hasSalesChannel",
+            "target":"dtmi:smartdatamodels:Market_Sales_Domain:SalesChannel;1"
          }
       ]
    }
