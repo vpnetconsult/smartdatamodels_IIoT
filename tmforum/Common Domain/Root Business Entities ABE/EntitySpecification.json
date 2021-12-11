@@ -1,8 +1,8 @@
  {
-      "@id":"dtmi:smartdatamodels:Common_Domain:EntitySpecification;1",
+      "@id":"dtmi:sid:Common_Domain:EntitySpecification;1",
       "@type":"Interface",
       "displayName":"EntitySpecification",
-      "extends":"dtmi:smartdatamodels:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
          {
