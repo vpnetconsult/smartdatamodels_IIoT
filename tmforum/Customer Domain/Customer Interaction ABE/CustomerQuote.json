@@ -1,14 +1,14 @@
  {
-      "@id":"dtmi:smartdatamodels:Customer_Domain:CustomerQuote;1",
+      "@id":"dtmi:sid:Customer_Domain:CustomerQuote;1",
       "@type":"Interface",
       "displayName":"CustomerQuote",
-      "extends":"dtmi:smartdatamodels:Common_Domain:BusinessInteraction;1",
+      "extends":"dtmi:sid:Common_Domain:BusinessInteraction;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
        {
             "@type":"Relationship",
             "name":"CustomerRequests",
-            "target":"dtmi:smartdatamodels:Customer_Domain:Customer;1"
+            "target":"dtmi:sid:Customer_Domain:Customer;1"
          }
       ]
    }
