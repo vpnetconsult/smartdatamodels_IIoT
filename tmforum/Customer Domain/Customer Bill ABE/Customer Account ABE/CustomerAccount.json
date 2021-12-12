@@ -6,6 +6,11 @@
       "@context":"dtmi:dtdl:context;2",
       "contents":[
        {
+            "@type":"Property",
+            "name":"creditLimit",
+            "schema":"integer"
+        },
+       {
             "@type":"Relationship",
             "name":"CustomerPosseses",
             "target":"dtmi:sid:Customer_Domain:Customer;1"
