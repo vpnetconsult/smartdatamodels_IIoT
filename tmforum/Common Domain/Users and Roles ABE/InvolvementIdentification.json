@@ -1,1 +1,13 @@
-
+ {
+      "@id":"dtmi:sid:Common_Domain:InvolvementIdentification;1",
+      "@type":"Interface",
+      "displayName":"InvolvementIdentification",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+       {
+            "@type":"Relationship",
+            "name":"InvolvementIdentificationPlays",
+            "target":"dtmi:sid:Customer_Domain:InvolvementIdentificationRole;1"
+         }
+      ]
+   }
