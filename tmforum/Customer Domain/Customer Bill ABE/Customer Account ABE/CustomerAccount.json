@@ -1,1 +1,15 @@
+ {
+      "@id":"dtmi:sid:Customer_Domain:CustomerAccount;1",
+      "@type":"Interface",
+      "displayName":"CustomerAccount",
+      "extends":"dtmi:sid:Common_Domain:Account;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+       {
+            "@type":"Relationship",
+            "name":"CustomerPosseses",
+            "target":"dtmi:sid:Customer_Domain:Customer;1"
+         }
+      ]
+   }
 
