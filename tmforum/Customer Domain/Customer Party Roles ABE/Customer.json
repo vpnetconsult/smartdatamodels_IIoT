@@ -1,8 +1,8 @@
  {
-      "@id":"dtmi:smartdatamodels:Customer_Domain:Customer;1",
+      "@id":"dtmi:sid:Customer_Domain:Customer;1",
       "@type":"Interface",
       "displayName":"Customer",
-      "extends":"dtmi:smartdatamodels:Common_Domain:PartyRole;1",
+      "extends":"dtmi:sid:Common_Domain:PartyRole;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
          {
