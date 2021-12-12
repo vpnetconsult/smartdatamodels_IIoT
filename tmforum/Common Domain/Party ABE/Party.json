@@ -1,1 +1,23 @@
-
+   {
+      "@id":"dtmi:sid:Common_Domain:Party;1",
+      "@type":"Interface",
+      "displayName":"Party",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"PartyParticipateAs",
+            "schema":"dtmi:sid:Common_Domain:PartyUser;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"HasPartyRoles",
+            "target":"dtmi:sid:Common_Domain:PartyRole;1"
+         }
+      ]
+   }
