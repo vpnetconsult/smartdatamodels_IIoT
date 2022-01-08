@@ -9,11 +9,6 @@
             "@type":"Property",
             "name":"usageState",
             "schema":"integer"
-         },
-        {
-            "@type":"Relationship",
-            "name":"PlaceLocatesResource",
-            "schema":"dtmi:sid:Common_Domain:Place"
          }
       ]
    }
