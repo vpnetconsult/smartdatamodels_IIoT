@@ -13,7 +13,7 @@
          },
         {
             "@type":"Property",
-            "name":"StreetCategory",
+            "name":"StreetSegment",
             "schema":"string"
          }
       ]
