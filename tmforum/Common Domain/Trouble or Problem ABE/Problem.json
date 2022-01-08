@@ -17,12 +17,12 @@
          {
             "@type":"Relationship",
             "name":"affectedLocations",
-            "schema":"dtmi:sid:Common_Domain:GeographicPlace;1"
+            "target":"dtmi:sid:Common_Domain:GeographicPlace;1"
          },
          {
             "@type":"Relationship",
             "name":"associatedTroubleTickets",
-            "schema":"dtmi:sid:Common_Domain:TroubleTicket;1"
+            "target":"dtmi:sid:Common_Domain:TroubleTicket;1"
          },
          {
             "@type":"Property",
