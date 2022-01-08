@@ -15,12 +15,12 @@
             "schema":"string"
          },
          {
-            "@type":"Component",
+            "@type":"Relationship",
             "name":"affectedLocations",
-            "schema":"dtmi:sid:Common_Domain:Location;3"
+            "schema":"dtmi:sid:Common_Domain:GeographicPlace;3"
          },
          {
-            "@type":"Component",
+            "@type":"Relationship",
             "name":"associatedTroubleTickets",
             "schema":"dtmi:sid:Common_Domain:TroubleTicket;3"
          },
