@@ -1,1 +1,16 @@
+ {
+      "@id":"dtmi:sid:Common_Domain:GeographicAddress;1",
+      "@type":"Interface",
+      "displayName":"GeographicAddress",
+      "extends":"dtmi:sid:Common_Domain:GeographicPlace;1",
+      "extends":"dtmi:sid:Common_Domain:Place;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+        {
+            "@type":"Property",
+            "name":"stateOrProvince",
+            "schema":"string"
+         }
+      ]
+   }
 
