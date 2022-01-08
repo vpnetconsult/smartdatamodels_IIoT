@@ -14,6 +14,11 @@
             "@type":"Relationship",
             "name":"SpecifiesResource",
             "target":"dtmi:sid:Resource_Domain:ResourceSpecification;1"
+         },
+        {
+            "@type":"Relationship",
+            "name":"PlaceLocatesResource",
+            "target":"dtmi:sid:Common_Domain:Place;1"
          }
       ]
    }
