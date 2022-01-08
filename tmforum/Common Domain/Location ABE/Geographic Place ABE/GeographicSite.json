@@ -1,0 +1,15 @@
+ {
+      "@id":"dtmi:sid:Common_Domain:GeographicSite;1",
+      "@type":"Interface",
+      "displayName":"GeographicSite",
+      "extends":"dtmi:sid:Common_Domain:GeographicPlace;1",
+      "extends":"dtmi:sid:Common_Domain:Place;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+       {
+            "@type":"Relationship",
+            "name":"SiteDefinesLocalPlace",
+            "target":"dtmi:sid:Common_Domain:LocalPlace;1"
+         }
+      ]
+   }
