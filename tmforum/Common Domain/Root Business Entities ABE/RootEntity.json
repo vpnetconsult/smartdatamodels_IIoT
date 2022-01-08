@@ -6,12 +6,17 @@
       "contents":[
          {
             "@type":"Property",
-            "name":"interactionResult",
+            "name":"ID",
             "schema":"string"
          },
          {
             "@type":"Property",
-            "name":"interactionUseCase",
+            "name":"Description",
+            "schema":"string"
+         },
+        {
+            "@type":"Property",
+            "name":"name",
             "schema":"string"
          }
       ]
