@@ -7,8 +7,8 @@
       "contents":[
        {
             "@type":"Relationship",
-            "name":"ProblemHasAffectedLocations",
-            "target":"dtmi:sid:Customer_Domain:Problem;1"
+            "name":"CapacityAppliesTo",
+            "target":"dtmi:sid:Customer_Domain:Capacity;1"
          }
       ]
    }
