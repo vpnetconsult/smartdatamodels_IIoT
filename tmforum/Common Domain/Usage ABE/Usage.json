@@ -13,6 +13,11 @@
             "@type":"Property",
             "name":"usageStatus",
             "schema":"integer"
+       },
+       {
+            "@type":"Component",
+            "name":"UsageSpecDescribes",
+            "schema":"dtmi:sid:Common_Domain:UsageSpecification;1"
        }
       ]
    }
