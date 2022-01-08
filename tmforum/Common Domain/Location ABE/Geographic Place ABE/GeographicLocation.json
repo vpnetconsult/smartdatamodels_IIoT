@@ -1,1 +1,15 @@
-
+ {
+      "@id":"dtmi:sid:Common_Domain:GeographicLocation;1",
+      "@type":"Interface",
+      "displayName":"GeographicLocation",
+      "extends":"dtmi:sid:Common_Domain:GeographicPlace;1",
+      "extends":"dtmi:sid:Common_Domain:Place;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+        {
+            "@type":"Property",
+            "name":"accuracy",
+            "schema":"string"
+         }
+      ]
+   }
