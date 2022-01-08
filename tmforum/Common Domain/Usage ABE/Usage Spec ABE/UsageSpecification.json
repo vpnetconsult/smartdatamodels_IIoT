@@ -1,1 +1,15 @@
-
+  {
+      "@id":"dtmi:sid:Common_Domain:UsageSpecification;1",
+      "@type":"Interface",
+      "displayName":"UsageSpecification",
+      "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:EntitySpecification;1",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"UsageSpecVersion",
+            "schema":"string"
+         }
+      ]
+   }
