@@ -20,11 +20,6 @@
             "schema":"boolean"
          },
         {
-            "@type":"Property",
-            "name":"",
-            "schema":"boolean"
-         },
-        {
             "@type":"Relationship",
             "name":"ServicePlaceDetails",
             "schema":"dtmi:sid:Common_Domain:Place"
