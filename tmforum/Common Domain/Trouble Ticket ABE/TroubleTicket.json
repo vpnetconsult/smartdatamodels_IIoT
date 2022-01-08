@@ -1,1 +1,35 @@
+   {
+      "@id":"dtmi:sid:Common_Domain:TroubleTicket;1",
+      "@type":"Interface",
+      "displayName":"TroubleTicket",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"troubleTicketState",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"troubleState",
+            "schema":"integer"
+         },
+        {
+            "@type":"Property",
+            "name":"serviceRestoreDate",
+            "schema":"dateTime"
+         },
+        {
+            "@type":"Property",
+            "name":"troubleDetectionDate",
+            "schema":"dateTime"
+         },
+        {
+            "@type":"Relationship",
+            "name":"TroubleTicketComprisedOf",
+            "schema":"dtmi:sid:Common_Domain:TroubleTicket"
+         }
+      ]
+   }
+
 
