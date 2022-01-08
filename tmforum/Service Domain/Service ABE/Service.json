@@ -19,11 +19,6 @@
             "@type":"Property",
             "name":"isMandatory",
             "schema":"boolean"
-         },
-        {
-            "@type":"Relationship",
-            "name":"ServicePlaceDetails",
-            "schema":"dtmi:sid:Common_Domain:Place"
          }
       ]
    }
