@@ -1,5 +1,5 @@
    {
-      "@id":"dtmi:sid:Common_Domain:Problem;1",
+      "@id":"dtmi:sid:Common_Domain:Problem;2",
       "@type":"Interface",
       "displayName":"Problem",
       "@context":"dtmi:dtdl:context;2",
@@ -15,14 +15,14 @@
             "schema":"string"
          },
          {
-            "@type":"Property",
+            "@type":"Component",
             "name":"affectedLocations",
-            "schema":"string"
+            "schema":"dtmi:sid:Common_Domain:Location;3"
          },
          {
-            "@type":"Property",
+            "@type":"Component",
             "name":"associatedTroubleTickets",
-            "schema":"string"
+            "schema":"dtmi:sid:Common_Domain:TroubleTicket;3"
          },
          {
             "@type":"Property",
