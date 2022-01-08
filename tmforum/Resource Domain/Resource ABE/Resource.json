@@ -3,6 +3,7 @@
       "@type":"Interface",
       "displayName":"Resource",
       "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
       "contents":[
          {
             "@type":"Property",
