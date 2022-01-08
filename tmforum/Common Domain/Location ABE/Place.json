@@ -8,21 +8,6 @@
             "@type":"Property",
             "name":"ID",
             "schema":"string"
-         },
-         {
-            "@type":"Component",
-            "name":"service",
-            "schema":"dtmi:sid:Service_Domain:Service"
-         },
-        {
-            "@type":"Component",
-            "name":"resource",
-            "schema":"dtmi:sid:Resource_Domain:Resource"
-         },
-        {
-            "@type":"Component",
-            "name":"usage",
-            "schema":"dtmi:sid:Common_Domain:Usage"
          }
       ]
    }
