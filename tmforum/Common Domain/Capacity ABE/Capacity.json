@@ -1,1 +1,15 @@
+   {
+      "@id":"dtmi:sid:Common_Domain:Capacity;1",
+      "@type":"Interface",
+      "displayName":"Capacity",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"plannedOrActualCapacity",
+            "schema":"string"
+         }
+      ]
+   }
+
 
