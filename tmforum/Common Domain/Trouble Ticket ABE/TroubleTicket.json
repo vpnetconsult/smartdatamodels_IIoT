@@ -23,11 +23,6 @@
             "@type":"Property",
             "name":"troubleDetectionDate",
             "schema":"dateTime"
-         },
-        {
-            "@type":"Relationship",
-            "name":"TroubleTicketComprisedOf",
-            "schema":"dtmi:sid:Common_Domain:TroubleTicket"
          }
       ]
    }
