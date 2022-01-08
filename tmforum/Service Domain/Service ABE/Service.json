@@ -19,6 +19,11 @@
             "@type":"Property",
             "name":"isMandatory",
             "schema":"boolean"
+         },
+         {
+            "@type":"Relationship",
+            "name":"SpecifiesService",
+            "target":"dtmi:sid:Service_Domain:ServiceSpecification;1"
          }
       ]
    }
