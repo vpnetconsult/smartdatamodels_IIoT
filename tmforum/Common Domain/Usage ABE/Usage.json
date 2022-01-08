@@ -3,7 +3,7 @@
       "@type":"Interface",
       "displayName":"Usage",
       "@context":"dtmi:dtdl:context;2",
-      "contents":,
+      "contents":[
        {
             "@type":"Property",
             "name":"usageDate",
