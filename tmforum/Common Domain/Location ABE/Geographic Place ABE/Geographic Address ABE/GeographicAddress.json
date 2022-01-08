@@ -10,6 +10,11 @@
             "@type":"Property",
             "name":"stateOrProvince",
             "schema":"string"
+         },
+        {
+            "@type":"Relationship",
+            "name":"GeographicAddressLocatedAt",
+            "schema":"dtmi:sid:Common_Domain:GeographicLocation"
          }
       ]
    }
