@@ -18,6 +18,11 @@
             "@type":"Relationship",
             "name":"UsageSpecDescribes",
             "target":"dtmi:sid:Common_Domain:UsageSpecification;1"
+       },
+       {
+            "@type":"Relationship",
+            "name":"UsageOccurredAt",
+            "target":"dtmi:sid:Common_Domain:Place;1"
        }
       ]
    }
