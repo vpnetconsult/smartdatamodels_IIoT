@@ -107,12 +107,12 @@
          {
             "@type":"Property",
             "name":"timeChanged",
-            "schema":"string"
+            "schema":"dateTime"
          },
          {
             "@type":"Property",
             "name":"timeRaised",
-            "schema":"string"
+            "schema":"dateTime"
          },
          {
             "@type":"Property",
