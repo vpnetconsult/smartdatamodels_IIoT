@@ -24,6 +24,11 @@
             "@type":"Relationship",
             "name":"SpecifiesService",
             "target":"dtmi:sid:Service_Domain:ServiceSpecification;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"ServicePlaceDetails",
+            "target":"dtmi:sid:Common_Domain:Place;1"
          }
       ]
    }
