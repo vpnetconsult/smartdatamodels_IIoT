@@ -1,0 +1,15 @@
+  {
+      "@id":"dtmi:sid:Service_Domain:ServiceSpecification;1",
+      "@type":"Interface",
+      "displayName":"ServiceSpecification",
+      "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:EntitySpecification;1",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"version",
+            "schema":"string"
+         }
+      ]
+   }
