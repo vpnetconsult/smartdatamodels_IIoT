@@ -9,6 +9,11 @@
             "@type":"Property",
             "name":"usageState",
             "schema":"integer"
+         },
+        {
+            "@type":"Relationship",
+            "name":"SpecifiesResource",
+            "target":"dtmi:sid:Resource_Domain:ResourceSpecification;1"
          }
       ]
    }
