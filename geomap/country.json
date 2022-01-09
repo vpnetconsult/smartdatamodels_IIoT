@@ -1,1 +1,19 @@
+   {
+      "@id":"dtmi:geomap:country;1",
+      "@type":"Interface",
+      "displayName":"country",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"frequency",
+            "schema":"string"
+         }
+      ]
+   }
 
