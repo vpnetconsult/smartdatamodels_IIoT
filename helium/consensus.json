@@ -1,1 +1,13 @@
-
+   {
+      "@id":"dtmi:helium:network:consensus;1",
+      "@type":"Interface",
+      "displayName":"consensus",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"type",
+            "schema":"string"
+         }
+      ]
+   }
