@@ -1,1 +1,18 @@
-
+   {
+      "@id":"dtmi:helium:network:organization;1",
+      "@type":"Interface",
+      "displayName":"organization",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         },
+        {
+            "@type":"Property",
+            "name":"email",
+            "schema":"string"
+         }
+      ]
+   }
