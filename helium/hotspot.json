@@ -73,6 +73,11 @@
             "@type":"Relationship",
             "name":"witnesses",
             "target":"dtmi:helium:network:hotspot;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"located_in",
+            "target":"dtmi:geomap:city;1"
          }
       ]
    }
