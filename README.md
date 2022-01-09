@@ -13,4 +13,4 @@ https://VpnetTwin.api.weu.digitaltwins.azure.net
 
 
 
-![mPCIe](DigitalTwin.jpeg?raw=true "mPCIe stuff")
+![mPCIe](DigitalTwin.jpg?raw=true "mPCIe stuff")
