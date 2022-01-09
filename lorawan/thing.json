@@ -28,6 +28,11 @@
             "@type":"Relationship",
             "name":"reported_at",
             "target":"dtmi:helium:network:hotspot;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"accepted_at",
+            "target":"dtmi:helium:network:console;1"
          }
       ]
    }
