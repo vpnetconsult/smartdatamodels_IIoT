@@ -63,6 +63,11 @@
             "@type":"Property",
             "name":"status",
             "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"owned_by",
+            "target":"dtmi:helium:network:wallet;1"
          }
       ]
    }
