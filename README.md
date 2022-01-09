@@ -4,4 +4,4 @@ Vertical Industry Smart Data models (based on Azure Digital Twins)
 ## High Level Flow
 
 
-![mPCIe](HeliumDigitalTwin.jpg?raw=true "mPCIe stuff")
+![mPCIe](HeliumDigitalTwin.jpeg?raw=true "mPCIe stuff")
