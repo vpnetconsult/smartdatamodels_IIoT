@@ -68,6 +68,11 @@
             "@type":"Relationship",
             "name":"owned_by",
             "target":"dtmi:helium:network:wallet;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"witnesses",
+            "target":"dtmi:helium:network:hotspot;1"
          }
       ]
    }
