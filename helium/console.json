@@ -27,7 +27,7 @@
          {
             "@type":"Relationship",
             "name":"reported_at",
-            "target":"dtmi:helium:console:hotspot"
+            "target":"dtmi:helium:console:hotspot;1"
          }
       ]
    }
