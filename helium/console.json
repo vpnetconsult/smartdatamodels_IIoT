@@ -23,6 +23,11 @@
             "@type":"Property",
             "name":"fcnt",
             "schema":"integer"
+         },
+         {
+            "@type":"Relationship",
+            "name":"reported_at",
+            "target":"dtmi:helium:console:hotspot"
          }
       ]
    }
