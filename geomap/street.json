@@ -1,1 +1,19 @@
+   {
+      "@id":"dtmi:geomap:street;1",
+      "@type":"Interface",
+      "displayName":"street",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"located_in",
+            "target":"dtmi:geomap:city;1"
+         }
+      ]
+   }
 
