@@ -36,12 +36,12 @@
          },
         {
             "@type":"Property",
-            "name":"DC Balance",
+            "name":"DCBalance",
             "schema":"integer"
          },
         {
             "@type":"Property",
-            "name":"Securities Balance",
+            "name":"SecuritiesBalance",
             "schema":"string"
          }
       ]
