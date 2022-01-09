@@ -1,5 +1,5 @@
    {
-      "@id":"dtmi:helium:console:hotspot;1",
+      "@id":"dtmi:helium:network:hotspot;1",
       "@type":"Interface",
       "displayName":"hotspot",
       "@context":"dtmi:dtdl:context;2",
