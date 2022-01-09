@@ -1,33 +1,23 @@
    {
-      "@id":"dtmi:helium:console:ttgo;1",
+      "@id":"dtmi:helium:network:console;1",
       "@type":"Interface",
-      "displayName":"ttgo",
+      "displayName":"console",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
          {
             "@type":"Property",
-            "name":"app_eui",
+            "name":"type",
             "schema":"string"
          },
          {
             "@type":"Property",
-            "name":"dev_eui",
-            "schema":"string"
-         },
-        {
-            "@type":"Property",
-            "name":"devaddr",
-            "schema":"string"
-         },
-        {
-            "@type":"Property",
-            "name":"fcnt",
+            "name":"dc_balance",
             "schema":"integer"
          },
          {
             "@type":"Relationship",
-            "name":"reported_at",
-            "target":"dtmi:helium:console:hotspot;1"
+            "name":"registered_to",
+            "target":"dtmi:helium:network:organization;1"
          }
       ]
    }
