@@ -72,7 +72,14 @@
          {
             "@type":"Relationship",
             "name":"witnesses",
-            "target":"dtmi:helium:network:hotspot;1"
+            "target":"dtmi:helium:network:hotspot;1",
+            "properties": [
+               {
+                  "@type": "Property",
+                  "name": "distance",
+                  "schema": "integer"
+               }
+            ]
          },
          {
             "@type":"Relationship",
