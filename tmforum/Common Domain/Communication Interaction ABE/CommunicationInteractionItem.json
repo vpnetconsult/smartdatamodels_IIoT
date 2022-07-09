@@ -11,7 +11,7 @@
          },
          {
             "@type":"Relationship",
-            "name":"CommunicationInteractionItemResulstsIn",
+            "name":"CommunicationInteractionItemResultsIn",
             "target":"dtmi:sid:Common_Domain:CommunicationInteractionResult;1"
          }
       ]
