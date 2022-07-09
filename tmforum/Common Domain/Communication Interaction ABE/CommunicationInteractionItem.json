@@ -13,6 +13,11 @@
             "@type":"Relationship",
             "name":"CommunicationInteractionItemResultsIn",
             "target":"dtmi:sid:Common_Domain:CommunicationInteractionResult;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"CommunicationInteractionItemConcerns",
+            "target":"dtmi:sid:Common_Domain:CommunicationInteractionUseCase;1"
          }
       ]
    }
