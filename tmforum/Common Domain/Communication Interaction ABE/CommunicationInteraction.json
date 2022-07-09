@@ -26,18 +26,13 @@
          },
          {
             "@type":"Relationship",
-            "name":"BusinessInteractionComprisedOf",
-            "target":"dtmi:sid:Common_Domain:BusinessInteractionItem;1"
+            "name":"CommunicationInteractionContains",
+            "target":"dtmi:sid:Common_Domain:CommunicationInteractionItem;1"
          },
          {
             "@type":"Relationship",
-            "name":"BusinessInteractionItemInvolves",
-            "target":"dtmi:sid:Common_Domain:PartyRole;1"
-         },
-         {
-            "@type":"Relationship",
-            "name":"BusinessInteractionLocationSpecifiesThePlaceForBI",
-            "target":"dtmi:sid:Common_Domain:BusinessInteractionLocation;1"
+            "name":"	CommunicationInteractionDescribedByInteractionMeans",
+            "target":"dtmi:sid:Common_Domain:CommunicationInteractionMeans;1"
          }
       ]
    }
