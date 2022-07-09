@@ -18,6 +18,11 @@
             "@type":"Relationship",
             "name":"CommunicationInteractionRoleInvolvedIn",
             "target":"dtmi:sid:Common_Domain:CommunicationInteractionItem;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"CommunicationInteractionRoleUsesContactMedium",
+            "target":"dtmi:sid:Common_Domain:ContactMedium;1"
          }
       ]
    }
