@@ -23,6 +23,11 @@
             "@type":"Relationship",
             "name":"CommunicationInteractionRoleUsesContactMedium",
             "target":"dtmi:sid:Common_Domain:ContactMedium;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"CommunicationInteractionRoleUsesMedia",
+            "target":"dtmi:sid:Common_Domain:Media;1"
          }
       ]
    }
