@@ -13,6 +13,11 @@
             "@type":"Property",
             "name":"Media",
             "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"CommunicationInteractionRoleInvolvedIn",
+            "target":"dtmi:sid:Common_Domain:CommunicationInteractionItem;1"
          }
       ]
    }
