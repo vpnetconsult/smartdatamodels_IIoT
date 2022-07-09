@@ -16,11 +16,6 @@
          },
          {
             "@type":"Relationship",
-            "name":"CommunicationInteractionRoleUsesContactMedium",
-            "schema":"dtmi:sid:Common_Domain:CommunicationInteractionRole;1"
-         },
-         {
-            "@type":"Relationship",
             "name":"PartyRoleContactableVia",
             "target":"dtmi:sid:Common_Domain:PartyRole;1"
          }
