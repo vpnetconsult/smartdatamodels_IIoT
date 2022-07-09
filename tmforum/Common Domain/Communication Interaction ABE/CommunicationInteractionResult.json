@@ -1,0 +1,12 @@
+{
+      "@id":"dtmi:sid:Common_Domain:CommunicationInteractionResult;1",
+      "@type":"Interface",
+      "displayName":"CommunicationInteractionResult",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+        {
+            "@type":"Property",
+            "name":"content",
+            "schema":"string"
+         }
+ 
