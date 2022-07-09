@@ -13,6 +13,6 @@
             "@type":"Relationship",
             "name":"CommunicationInteractionResultsRelizesInteractionAction",
             "target":"dtmi:sid:Common_Domain:CommunicationInteractionAction;1"
-         },
+         }
      ]
   }
