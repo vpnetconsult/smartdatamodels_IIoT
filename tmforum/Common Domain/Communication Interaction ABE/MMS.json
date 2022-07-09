@@ -1,0 +1,7 @@
+{
+      "@id":"dtmi:sid:Common_Domain:MMS;1",
+      "@type":"Interface",
+      "displayName":"MMS",
+      "extends":"dtmi:sid:Common_Domain:CommunicationInteractionMeans;1",
+      "@context":"dtmi:dtdl:context;2"
+   }
