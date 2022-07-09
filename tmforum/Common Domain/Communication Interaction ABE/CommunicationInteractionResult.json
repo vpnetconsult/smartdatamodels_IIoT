@@ -8,6 +8,11 @@
             "@type":"Property",
             "name":"content",
             "schema":"string"
-         }
+         },
+         {
+            "@type":"Relationship",
+            "name":"CommunicationInteractionResultsRelizesInteractionAction",
+            "target":"dtmi:sid:Common_Domain:CommunicationInteractionAction;1"
+         },
      ]
   }
