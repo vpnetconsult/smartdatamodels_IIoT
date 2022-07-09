@@ -8,16 +8,6 @@
             "@type":"Property",
             "name":"validFor",
             "schema":"dateTime"
-         },
-         {
-            "@type":"Relationship",
-            "name":"PartyContactableVia",
-            "schema":"dtmi:sid:Common_Domain:Party;1"
-         },
-         {
-            "@type":"Relationship",
-            "name":"PartyRoleContactableVia",
-            "target":"dtmi:sid:Common_Domain:PartyRole;1"
          }
       ]
    }
