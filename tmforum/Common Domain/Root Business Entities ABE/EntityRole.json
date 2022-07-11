@@ -1,0 +1,15 @@
+ {
+      "@id":"dtmi:sid:Common_Domain:EntityRole;1",
+      "@type":"Interface",
+      "displayName":"EntityRole",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:Role;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"Entity",
+            "schema":"string"
+         }
+      ]
+   }
