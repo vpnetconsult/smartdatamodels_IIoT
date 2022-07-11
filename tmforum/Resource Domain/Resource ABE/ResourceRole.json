@@ -15,7 +15,7 @@
         {
             "@type":"Relationship",
             "name":"ResourceRoleInvolvedInCommunicationInteractionRole",
-            "target":"dtmi:sid:Resource_Domain:CommunicationInteractionRole;1"
+            "target":"dtmi:sid:Common_Domain:CommunicationInteractionRole;1"
          },
         {
             "@type":"Relationship",
