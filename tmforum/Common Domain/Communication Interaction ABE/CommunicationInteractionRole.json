@@ -6,12 +6,12 @@
       "contents":[
          {
             "@type":"Property",
-            "name":"contactMedium",
+            "name":"role",
             "schema":"string"
          },
          {
             "@type":"Property",
-            "name":"Media",
+            "name":"authenticationLevel",
             "schema":"string"
          },
          {
