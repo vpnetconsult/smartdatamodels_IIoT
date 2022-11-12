@@ -6,6 +6,11 @@
       "contents":[
          {
             "@type":"Property",
+            "name":"ID",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
             "name":"description",
             "schema":"string"
          },
@@ -27,12 +32,12 @@
          {
             "@type":"Relationship",
             "name":"BusinessInteractionComprisedOf",
-            "target":"dtmi:smartdatamodels:Common_Domain:BusinessInteractionItem;1"
+            "target":"dtmi:sid:Common_Domain:BusinessInteractionItem;1"
          },
          {
             "@type":"Relationship",
             "name":"BusinessInteractionItemInvolves",
-            "target":"dtmi:smartdatamodels:Common_Domain:PartyRole;1"
+            "target":"dtmi:sid:Common_Domain:PartyRole;1"
          },
          {
             "@type":"Relationship",
