@@ -1,1 +1,18 @@
-
+  {
+      "@id":"dtmi:sid:Common_Domain:MetricMeasure;1",
+      "@type":"Interface",
+      "displayName":"MetricMeasure",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"ID",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"validFor",
+            "schema":"dtmi:sid:Common_Domain:timePeriod:1"
+         }
+      ]
+   }
