@@ -18,11 +18,6 @@
             "@type":"Relationship",
             "name":"PartyProfileCategorizesPartyRole",
             "target":"dtmi:sid:Common_Domain:PartyRole;1"
-         },
-         {
-            "@type":"Relationship",
-            "name":"PartyProfileMatchedWith",
-            "target":"dtmi:sid:Common_Domain:PartyProfile;1"
          }
       ]
    }
