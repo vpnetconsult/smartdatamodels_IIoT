@@ -18,6 +18,11 @@
             "@type":"Relationship",
             "name":"PartyRoleInvolvedInCommunicationInteractionRole",
             "target":"dtmi:sid:Common_Domain:CommunicationInteractionRole;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"PartyRoleRequestsFor",
+            "target":"dtmi:sid:Common_Domain:MetricMeasurementObservation;1"
          }
       ]
    }
