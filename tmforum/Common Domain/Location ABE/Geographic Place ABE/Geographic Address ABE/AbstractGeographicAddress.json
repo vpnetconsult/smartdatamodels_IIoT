@@ -1,1 +1,16 @@
+ {
+      "@id":"dtmi:sid:Common_Domain:AbstractGeographicAddress;1",
+      "@type":"Interface",
+      "displayName":"AbstractGeographicAddress",
+      "extends":"dtmi:sid:Common_Domain:GeographicPlace;1",
+      "extends":"dtmi:sid:Common_Domain:Place;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+        {
+            "@type":"Relationship",
+            "name":"LocalAddressDefinedRelativeToGeoAddress",
+            "schema":"dtmi:sid:Common_Domain:LocalAddress"
+         }
+      ]
+   }
 
