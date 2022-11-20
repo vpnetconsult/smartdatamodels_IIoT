@@ -13,6 +13,11 @@
             "@type":"Property",
             "name":"validFor",
             "schema":"dtmi:sid:Common_Domain:timePeriod:1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"MetricMeasurementObservationResultsIn",
+            "target":"dtmi:sid:Common_Domain:MetricMeasure;1"
          }
       ]
    }
