@@ -1,1 +1,10 @@
-
+ {
+      "@id":"dtmi:sid:Common_Domain:Locallocation;1",
+      "@type":"Interface",
+      "displayName":"LocalLocation",
+      "extends":"dtmi:sid:Common_Domain:LocalPlace;1",
+      "extends":"dtmi:sid:Common_Domain:Place;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+      ]
+   }
