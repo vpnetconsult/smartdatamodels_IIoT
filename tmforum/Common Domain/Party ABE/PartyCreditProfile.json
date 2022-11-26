@@ -27,7 +27,7 @@
          {
             "@type":"Property",
             "name":"effectiveDate",
-            "schema":"timePeriod"
+            "schema":"dateTime"
          },
          {
             "@type":"Property",
