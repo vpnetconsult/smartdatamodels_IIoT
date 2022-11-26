@@ -1,1 +1,13 @@
-
+  {
+      "@id":"dtmi:sid:Common_Domain:MetricMeasurementJob;1",
+      "@type":"Interface",
+      "displayName":"MetricMeasurementJob",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"value",
+            "schema":"string"
+         }
+      ]
+   }
