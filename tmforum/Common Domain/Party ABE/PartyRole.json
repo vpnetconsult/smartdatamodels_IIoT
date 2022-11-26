@@ -23,6 +23,11 @@
             "@type":"Relationship",
             "name":"PartyRoleRequestsFor",
             "target":"dtmi:sid:Common_Domain:MetricMeasurementObservation;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"PartyStabilityMeasuredBy",
+            "target":"dtmi:sid:Common_Domain:PartyCreditProfile;1"
          }
       ]
    }
