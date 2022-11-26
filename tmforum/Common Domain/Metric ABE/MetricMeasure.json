@@ -6,13 +6,8 @@
       "contents":[
          {
             "@type":"Property",
-            "name":"ID",
+            "name":"value",
             "schema":"string"
-         },
-         {
-            "@type":"Property",
-            "name":"validFor",
-            "schema":"dtmi:sid:Common_Domain:timePeriod:1"
          }
       ]
    }
