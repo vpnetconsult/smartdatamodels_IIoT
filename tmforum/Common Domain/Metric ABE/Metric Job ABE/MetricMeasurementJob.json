@@ -8,6 +8,11 @@
             "@type":"Property",
             "name":"value",
             "schema":"string"
-         }
+         },
+        {
+            "@type":"Relationship",
+            "name":"MeasurementJobUsesMonitoredMetricObjectCriterion",
+            "target":"dtmi:sid:Common_Domain:MonitoredMetricObjectCriterion;1"
+        }
       ]
    }
