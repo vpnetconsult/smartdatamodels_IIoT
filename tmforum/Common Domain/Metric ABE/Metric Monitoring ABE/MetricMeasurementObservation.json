@@ -18,6 +18,11 @@
             "@type":"Relationship",
             "name":"MetricMeasurementObservationResultsIn",
             "target":"dtmi:sid:Common_Domain:MetricMeasure;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"MetricMeasurementObservationConcerns",
+            "target":"dtmi:sid:Common_Domain:MonitoredMetricObjectCriterion;1"
          }
       ]
    }
