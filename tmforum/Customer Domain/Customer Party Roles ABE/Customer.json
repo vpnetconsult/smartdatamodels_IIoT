@@ -9,6 +9,11 @@
             "@type":"Property",
             "name":"customerRank",
             "schema":"integer"
+         },
+         {
+            "@type":"Relationship",
+            "name":"CustomerStabilityMeasuredBy",
+            "target":"dtmi:sid:Common_Domain:PartyCreditProfile;1"
          }
       ]
    }
