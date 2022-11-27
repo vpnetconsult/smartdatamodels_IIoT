@@ -38,6 +38,11 @@
             "@type":"Relationship",
             "name":"PartyRoleContactableVia",
             "target":"dtmi:sid:Common_Domain:ContactMedium;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"PartyRolePlays",
+            "target":"dtmi:sid:Common_Domain:InvolvementRole;1"
          }
       ]
    }
