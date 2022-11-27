@@ -6,6 +6,11 @@
       "contents":[
          {
             "@type":"Property",
+            "name":"ID",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
             "name":"name",
             "schema":"string"
          },
