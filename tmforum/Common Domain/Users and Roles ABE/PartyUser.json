@@ -5,10 +5,10 @@
       "extends":"dtmi:sid:Common_Domain:InvolvementIdentification;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
-       {
-            "@type":"Relationship",
-            "name":"PartyParticipateAs",
-            "target":"dtmi:sid:Common_Domain:Party;1"
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
          }
       ]
    }
