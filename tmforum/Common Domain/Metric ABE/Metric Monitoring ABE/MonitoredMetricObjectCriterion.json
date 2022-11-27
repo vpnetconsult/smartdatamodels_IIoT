@@ -8,11 +8,6 @@
             "@type":"Property",
             "name":"ID",
             "schema":"string"
-         },
-         {
-            "@type":"Property",
-            "name":"validFor",
-            "schema":"dtmi:sid:Common_Domain:timePeriod:1"
          }
       ]
    }
