@@ -8,7 +8,7 @@
        {
             "@type":"Relationship",
             "name":"PartyParticipateAs",
-            "target":"dtmi:sid:Customer_Domain:Party;1"
+            "target":"dtmi:sid:Common_Domain:Party;1"
          }
       ]
    }
