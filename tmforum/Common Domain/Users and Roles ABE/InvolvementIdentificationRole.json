@@ -1,1 +1,14 @@
+   {
+      "@id":"dtmi:sid:Common_Domain:InvolvementIdentificationRole;1",
+      "@type":"Interface",
+      "displayName":"InvolvementIdentificationRole",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         }
+      ]
+   }
 
