@@ -3,5 +3,22 @@
       "@type":"Interface",
       "displayName":"Organization",
       "extends":"dtmi:sid:Common_Domain:Party;1",
-      "@context":"dtmi:dtdl:context;2"
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"isLegalEntity",
+            "schema":"boolean"
+         },
+         {
+            "@type":"Property",
+            "name":"language",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"type",
+            "schema":"string"
+         }
+      ]
    }
