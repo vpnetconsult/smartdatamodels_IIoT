@@ -12,7 +12,7 @@
          {
             "@type":"Relationship",
             "name":"PartyParticipateAs",
-            "schema":"dtmi:sid:Common_Domain:PartyUser;1"
+            "target":"dtmi:sid:Common_Domain:PartyUser;1"
          },
          {
             "@type":"Relationship",
