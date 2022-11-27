@@ -1,7 +1,7 @@
    {
-      "@id":"dtmi:sid:Common_Domain:DigitalIdentity;1",
+      "@id":"dtmi:sid:Common_Domain:PartyDigitalIdentity;1",
       "@type":"Interface",
-      "displayName":"DigitalIdentity",
+      "displayName":"PartyDigitalIdentity",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
 
