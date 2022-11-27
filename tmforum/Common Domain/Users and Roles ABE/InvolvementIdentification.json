@@ -7,7 +7,7 @@
        {
             "@type":"Relationship",
             "name":"InvolvementIdentificationPlays",
-            "target":"dtmi:sid:Customer_Domain:InvolvementIdentificationRole;1"
+            "target":"dtmi:sid:Common_Domain:InvolvementIdentificationRole;1"
          }
       ]
    }
