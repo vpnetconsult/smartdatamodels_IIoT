@@ -2,8 +2,6 @@
       "@id":"dtmi:sid:Common_Domain:PartyDigitalIdentity;1",
       "@type":"Interface",
       "displayName":"PartyDigitalIdentity",
-      "@context":"dtmi:dtdl:context;2",
-      "contents":[
-
-      ]
+      "extends":"dtmi:sid:Common_Domain:DigitalIdentity;1",
+      "@context":"dtmi:dtdl:context;2"
    }
