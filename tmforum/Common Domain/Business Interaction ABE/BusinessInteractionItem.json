@@ -13,6 +13,11 @@
             "@type":"Property",
             "name":"quantity",
             "schema":"integer"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolvesResource",
+            "target":"dtmi:sid:Resource_Domain:Resource;1"
          }
       ]
    }
