@@ -1,1 +1,23 @@
-
+ {
+      "@id":"dtmi:sid:Product_Domain:UsageVolumeBalanceEntry;1",
+      "@type":"Interface",
+      "displayName":"UsageVolumeBalanceEntry",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"description",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"value",
+            "schema":"integer"
+         },
+         {
+            "@type":"Property",
+            "name":"date",
+            "schema":"dateTime"
+         }
+      ]
+   }
