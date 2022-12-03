@@ -1,1 +1,6 @@
-
+ {
+      "@id":"dtmi:sid:Product_Domain:LoyalityAction;1",
+      "@type":"Interface",
+      "displayName":"LoyalityAction",
+      "@context":"dtmi:dtdl:context;2"
+   }
