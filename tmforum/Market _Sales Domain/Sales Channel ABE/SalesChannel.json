@@ -1,1 +1,13 @@
-
+ {
+      "@id":"dtmi:sid:Market_Sales_Domain:SalesChannel;1",
+      "@type":"Interface",
+      "displayName":"SalesChannel",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"ID",
+            "schema":"string"
+         }
+      ]
+   }
