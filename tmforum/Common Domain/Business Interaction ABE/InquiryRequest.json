@@ -1,1 +1,7 @@
-
+ {
+      "@id":"dtmi:sid:Common_Domain:InquiryRequest;1",
+      "@type":"Interface",
+      "displayName":"InquiryRequest",
+      "extends":"dtmi:sid:Common_Domain:BusinessInteraction;1",
+      "@context":"dtmi:dtdl:context;2"
+  }
