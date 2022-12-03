@@ -1,1 +1,17 @@
-
+ {
+      "@id":"dtmi:sid:Product_Domain:LoyalityExecutionPoint;1",
+      "@type":"Interface",
+      "displayName":"LoyalityExecutionPoint",
+      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
+      "extends":"dtmi:sid:Common_Domain:Entity;1",
+      "extends":"dtmi:sid:Common_Domain:PolicyApplication;1",
+      "extends":"dtmi:sid:Common_Domain:PolicyExecutionPoint;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Relationship",
+            "name":"isSellableStandAlone",
+            "target":"dtmi:sid:Product_Domain:UsageVolumeBalanceEntry;1"
+         }
+      ]
+   }
