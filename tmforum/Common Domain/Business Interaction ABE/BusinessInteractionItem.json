@@ -16,8 +16,43 @@
          },
          {
             "@type":"Relationship",
+            "name":"	BusinessInteractionItemInvolves",
+            "target":"dtmi:sid:Resource_Domain:BusinessInteractionRole;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolvesProduct",
+            "target":"dtmi:sid:Product_Domain:Product;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolvesProductSpecification",
+            "target":"dtmi:sid:Product_Domain:ProductSpecification;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolvesProductOffering",
+            "target":"dtmi:sid:Product_Domain:ProductOffering;1"
+         }
+         {
+            "@type":"Relationship",
             "name":"BusinessInteractionItemInvolvesResource",
             "target":"dtmi:sid:Resource_Domain:Resource;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolvesResourceSpecification",
+            "target":"dtmi:sid:Resource_Domain:ResourceSpecification;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolvesService",
+            "target":"dtmi:sid:Service_Domain:Service;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionItemInvolvesServiceSpecification",
+            "target":"dtmi:sid:Service_Domain:ServiceSpecification;1"
          }
       ]
    }
