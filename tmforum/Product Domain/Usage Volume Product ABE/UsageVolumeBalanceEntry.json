@@ -18,6 +18,11 @@
             "@type":"Property",
             "name":"date",
             "schema":"dateTime"
+         },
+         {
+            "@type":"Relationship",
+            "name":"UsageVolumeBalanceEntryTriggeredBy",
+            "target":"dtmi:sid:Product_Domain:LoyaltyExecutionPoint;1"
          }
       ]
    }
