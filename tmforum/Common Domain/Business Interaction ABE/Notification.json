@@ -3,12 +3,5 @@
       "@type":"Interface",
       "displayName":"Notification",
       "extends":"dtmi:sid:Common_Domain:BusinessInteraction;1",
-      "@context":"dtmi:dtdl:context;2",
-      "contents":[
-       {
-            "@type":"Relationship",
-            "name":"hasCustomer",
-            "target":"dtmi:sid:Customer_Domain:Customer;1"
-         }
-      ]
+      "@context":"dtmi:dtdl:context;2"
    }
