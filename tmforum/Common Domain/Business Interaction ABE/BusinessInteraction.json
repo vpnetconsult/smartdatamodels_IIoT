@@ -36,8 +36,8 @@
          },
          {
             "@type":"Relationship",
-            "name":"BusinessInteractionItemInvolves",
-            "target":"dtmi:sid:Common_Domain:PartyRole;1"
+            "name":"BusinessInteractionInvolves",
+            "target":"dtmi:sid:Common_Domain:BusinessInteractionRole;1"
          },
          {
             "@type":"Relationship",
