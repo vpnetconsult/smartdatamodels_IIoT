@@ -10,8 +10,23 @@
       "contents":[
          {
             "@type":"Relationship",
-            "name":"isSellableStandAlone",
+            "name":"UsageVolumeBalanceEntryTriggeredBy",
             "target":"dtmi:sid:Product_Domain:UsageVolumeBalanceEntry;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"LoyaltyEarnIsTriggeredBy",
+            "target":"dtmi:sid:Product_Domain:LoyaltyEarn;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"CustomerProductOrder",
+            "target":"dtmi:sid:Customer_Domain:CustomerProductOrder;1",
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionIsTriggeredBy",
+            "target":"dtmi:sid:Common_Domain:BusinessInteraction;1",
          }
       ]
    }
