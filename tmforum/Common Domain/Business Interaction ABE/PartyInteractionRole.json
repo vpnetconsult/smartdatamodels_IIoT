@@ -1,1 +1,14 @@
-
+   {
+      "@id":"dtmi:sid:Common_Domain:PartyInteractionRole;1",
+      "@type":"Interface",
+      "displayName":"PartyInteractionRole",
+      "extends":"dtmi:sid:Common_Domain:BusinessInteractionRole;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Relationship",
+            "name":"PartyInteractionRoleIdentifiedByPartyRole",
+            "target":"dtmi:sid:Common_Domain:PartyRole;1"
+         }
+      ]
+   }
