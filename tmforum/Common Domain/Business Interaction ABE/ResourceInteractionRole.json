@@ -2,6 +2,7 @@
       "@id":"dtmi:sid:Common_Domain:ResourceInteractionRole;1",
       "@type":"Interface",
       "displayName":"ResourceInteractionRole",
+      "extends":"dtmi:sid:Common_Domain:BusinessInteractionRole;1",
       "@context":"dtmi:dtdl:context;2",
       "contents":[
          {
