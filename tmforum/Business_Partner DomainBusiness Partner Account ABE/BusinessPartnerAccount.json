@@ -1,1 +1,13 @@
-
+   {
+      "@id":"dtmi:sid:Business_Partner_Domain:BusinessPartnerAccount;1",
+      "@type":"Interface",
+      "displayName":"BusinessPartnerAccount",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         }
+      ]
+   }
