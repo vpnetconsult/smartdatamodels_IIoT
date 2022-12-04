@@ -1,1 +1,18 @@
-
+  {
+      "@id":"dtmi:sid:Common_Domain:PolicyApplication;1",
+      "@type":"Interface",
+      "displayName":"PolicyApplication",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"ID",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"description",
+            "schema":"string"
+         }
+      ]
+   }
