@@ -1,0 +1,13 @@
+ {
+      "@id":"dtmi:sid:Product_Domain:LoyalityEarn;1",
+      "@type":"Interface",
+      "displayName":"LoyalityEarn",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"quantity",
+            "schema":"integer"
+         }
+      ]
+   }
