@@ -1,1 +1,23 @@
-
+ {
+      "@id":"dtmi:sid:Common_Domain:Entity;1",
+      "@type":"Interface",
+      "displayName":"Entity",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"ID",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"Description",
+            "schema":"string"
+         },
+        {
+            "@type":"Property",
+            "name":"name",
+            "schema":"string"
+         }
+      ]
+   }
