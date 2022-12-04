@@ -1,1 +1,14 @@
-
+  {
+      "@id":"dtmi:sid:Common_Domain:BusinessPartnerAccountInteractionRole;1",
+      "@type":"Interface",
+      "displayName":"BusinessPartnerAccountInteractionRole",
+      "extends":"dtmi:sid:Common_Domain:BusinessInteractionRole;1",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Relationship",
+            "name":"PartyAccountInteractionRoleIdentifiedBy",
+            "target":"dtmi:sid:Business_Partner_Domain:BusinessPartnerAccount;1"
+         }
+      ]
+   }
