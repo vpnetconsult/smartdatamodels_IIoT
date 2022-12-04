@@ -33,7 +33,7 @@
             "@type":"Relationship",
             "name":"BusinessInteractionItemInvolvesProductOffering",
             "target":"dtmi:sid:Product_Domain:ProductOffering;1"
-         }
+         },
          {
             "@type":"Relationship",
             "name":"BusinessInteractionItemInvolvesResource",
