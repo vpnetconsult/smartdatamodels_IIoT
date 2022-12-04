@@ -17,7 +17,7 @@
          {
             "@type":"Relationship",
             "name":"	BusinessInteractionItemInvolves",
-            "target":"dtmi:sid:Resource_Domain:BusinessInteractionRole;1"
+            "target":"dtmi:sid:Common_Domain:BusinessInteractionRole;1"
          },
          {
             "@type":"Relationship",
