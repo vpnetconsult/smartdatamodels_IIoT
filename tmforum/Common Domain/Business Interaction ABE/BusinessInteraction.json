@@ -43,6 +43,11 @@
             "@type":"Relationship",
             "name":"BusinessInteractionLocationSpecifiesThePlaceForBI",
             "target":"dtmi:sid:Common_Domain:BusinessInteractionLocation;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionRelationship",
+            "target":"dtmi:sid:Common_Domain:BusinessInteraction;1"
          }
       ]
    }
