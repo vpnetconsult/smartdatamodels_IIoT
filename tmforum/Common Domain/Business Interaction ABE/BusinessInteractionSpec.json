@@ -1,1 +1,13 @@
-
+   {
+      "@id":"dtmi:sid:Common_Domain:BusinessInteractionSpec;1",
+      "@type":"Interface",
+      "displayName":"BusinessInteractionSpec",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Relationship",
+            "name":"BusinessInteractionSpecCharacterizes",
+            "target":"dtmi:sid:Common_Domain:BusinessInteraction;1"
+         }
+      ]
+   }
