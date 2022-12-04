@@ -1,0 +1,7 @@
+{
+      "@id":"dtmi:sid:Common_Domain:Request;1",
+      "@type":"Interface",
+      "displayName":"Request",
+      "extends":"dtmi:sid:Common_Domain:BusinessInteraction;1",
+      "@context":"dtmi:dtdl:context;2"
+ }
