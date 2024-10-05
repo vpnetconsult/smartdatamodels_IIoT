@@ -3,4 +3,21 @@
       "@type":"Interface",
       "displayName":"DigitalIdentity",
       "@context":"dtmi:dtdl:context;2"
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"ID",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"status",
+            "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"IsAuthenticatedBy",
+            "target":"dtmi:sid:Common_Domain:Credential;1"
+         }
+      ]
    }
