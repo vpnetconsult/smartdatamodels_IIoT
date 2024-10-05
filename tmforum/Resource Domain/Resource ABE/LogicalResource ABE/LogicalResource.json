@@ -19,6 +19,11 @@
             "@type":"Property",
             "name":"isOperational",
             "schema":"boolean"
+         },
+        {
+            "@type":"Relationship",
+            "name":"isIdentifiedBy",
+            "target":"dtmi:sid:Common_Domain:ResourceDigitalIdentity;1"
          }
       ]
    }
