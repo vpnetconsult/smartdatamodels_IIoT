@@ -3,5 +3,16 @@
       "@type":"Interface",
       "displayName":"LogicalResourceRole",
       "@context":"dtmi:dtdl:context;2",
-      "extends":"dtmi:sid:Resource_Domain:ResourceRole;1"
+      "extends":"dtmi:sid:Resource_Domain:ResourceRole;1",
+      "contents":[
+            {
+                  @type":"Property",
+                  "name":"name",
+                  "schema":"string"
+            },
+            {
+            "@type":"Relationship",
+            "name":"HasPermission",
+            "target":"dtmi:sid:Common_Domain:Permission;1"
+         }
    }
