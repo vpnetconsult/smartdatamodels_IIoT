@@ -6,11 +6,6 @@
       "extends":"dtmi:sid:Resource_Domain:ResourceRole;1",
       "contents":[
          {
-            "@type":"Property",
-            "name":"version",
-            "schema":"string"
-         },
-         {
             "@type":"Relationship",
             "name":"HasPermission",
             "target":"dtmi:sid:Common_Domain:Permission;1"
