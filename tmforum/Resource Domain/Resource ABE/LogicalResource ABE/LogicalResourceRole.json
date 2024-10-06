@@ -1,0 +1,7 @@
+{
+      "@id":"dtmi:sid:Resource_Domain:LogicalResourceRole;1",
+      "@type":"Interface",
+      "displayName":"LogicalResourceRole",
+      "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Resource_Domain:ResourceRole;1"
+   }
