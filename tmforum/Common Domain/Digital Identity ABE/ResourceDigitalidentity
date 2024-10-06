@@ -1,7 +1,0 @@
-   {
-      "@id":"dtmi:sid:Common_Domain:ResourceDigitalIdentity;1",
-      "@type":"Interface",
-      "displayName":"ResourceDigitalIdentity",
-      "extends":"dtmi:sid:Common_Domain:DigitalIdentity;1",
-      "@context":"dtmi:dtdl:context;2"
-   }
