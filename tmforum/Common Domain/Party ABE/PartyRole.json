@@ -43,6 +43,11 @@
             "@type":"Relationship",
             "name":"PartyRolePlays",
             "target":"dtmi:sid:Common_Domain:InvolvementRole;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"OwnsResourceDetails",
+            "target":"dtmi:sid:Resource_Domain:LogicalResource;1"
          }
       ]
    }
