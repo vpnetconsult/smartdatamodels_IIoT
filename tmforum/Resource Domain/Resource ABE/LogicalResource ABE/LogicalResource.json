@@ -28,7 +28,7 @@
         {
             "@type":"Relationship",
             "name":"LogicalResourceHas",
-            "target":"dtmi:sid:Common_Domain:LogicalResourceRole;1"
+            "target":"dtmi:sid:Resource_Domain:LogicalResourceRole;1"
          }
       ]
    }
