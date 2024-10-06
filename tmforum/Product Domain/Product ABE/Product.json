@@ -9,6 +9,11 @@
             "@type":"Property",
             "name":"status",
             "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"References",
+            "target":"dtmi:sid:Common_Domain:Agreement;1"
          }
       ]
    }
