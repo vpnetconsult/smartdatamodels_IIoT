@@ -5,10 +5,10 @@
       "@context":"dtmi:dtdl:context;2",
       "extends":"dtmi:sid:Resource_Domain:ResourceRole;1",
       "contents":[
-         {
-            "@type":"Relationship",
-            "name":"HasPermission",
-            "target":"dtmi:sid:Common_Domain:Permission;1"
-         }
+            {
+                  "@type":"Relationship",
+                  "name":"HasPermission",
+                  "target":"dtmi:sid:Common_Domain:Permission;1"
+            }
       ]
-   }
+}
