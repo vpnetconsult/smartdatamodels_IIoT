@@ -2,5 +2,5 @@
       "@id":"dtmi:sid:Common_Domain:Permission;1",
       "@type":"Interface",
       "displayName":"Permission",
-      "@context":"dtmi:dtdl:context;2",
+      "@context":"dtmi:dtdl:context;2"
    }
