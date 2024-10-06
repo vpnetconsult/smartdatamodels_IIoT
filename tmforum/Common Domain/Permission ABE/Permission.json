@@ -1,4 +1,4 @@
-  {
+   {
       "@id":"dtmi:sid:Common_Domain:Permission;1",
       "@type":"Interface",
       "displayName":"Permission",
@@ -8,6 +8,11 @@
             "@type":"Property",
             "name":"name",
             "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"GrantsPrivilegeOn",
+            "target":"dtmi:sid:Product_Domain:Product;1"
          }
       ]
    }
