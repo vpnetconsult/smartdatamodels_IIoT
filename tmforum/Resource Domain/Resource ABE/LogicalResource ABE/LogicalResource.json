@@ -24,6 +24,11 @@
             "@type":"Relationship",
             "name":"isIdentifiedBy",
             "target":"dtmi:sid:Common_Domain:ResourceDigitalIdentity;1"
+         },
+        {
+            "@type":"Relationship",
+            "name":"LogicalResourceHas",
+            "target":"dtmi:sid:Common_Domain:LogicalResourceRole;1"
          }
       ]
    }
