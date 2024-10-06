@@ -6,7 +6,7 @@
       "extends":"dtmi:sid:Resource_Domain:ResourceRole;1",
       "contents":[
             {
-                  @type":"Property",
+                  "@type":"Property",
                   "name":"name",
                   "schema":"string"
             },
