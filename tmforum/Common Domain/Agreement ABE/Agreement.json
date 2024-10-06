@@ -18,6 +18,11 @@
             "@type":"Relationship",
             "name":"IsComposedOf",
             "target":"dtmi:sid:Common_Domain:AgreementItem;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"Involves",
+            "target":"dtmi:sid:Common_Domain:PartyRole;1"
          }
       ]
    }
