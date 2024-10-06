@@ -13,6 +13,11 @@
             "@type":"Property",
             "name":"statusEffectiveDate",
             "schema":"dateTime"
+         },
+         {
+            "@type":"Relationship",
+            "name":"Involves",
+            "target":"dtmi:sid:Product_Domain:ProductOffering;1"
          }
       ]
    }
