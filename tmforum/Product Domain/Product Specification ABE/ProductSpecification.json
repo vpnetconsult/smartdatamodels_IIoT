@@ -15,6 +15,11 @@
             "@type":"Relationship",
             "name":"MadeAvailableAs",
             "target":"dtmi:sid:Product_Domain:ProductOffering;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"Describes",
+            "target":"dtmi:sid:Product_Domain:Product;1"
          }
       ]
    }
