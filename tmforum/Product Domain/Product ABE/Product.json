@@ -14,6 +14,11 @@
             "@type":"Relationship",
             "name":"References",
             "target":"dtmi:sid:Common_Domain:Agreement;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"RealizedBy",
+            "target":"dtmi:sid:Service_Domain:Service;1"
          }
       ]
    }
