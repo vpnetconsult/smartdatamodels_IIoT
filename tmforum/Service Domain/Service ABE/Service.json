@@ -29,6 +29,11 @@
             "@type":"Relationship",
             "name":"ServicePlaceDetails",
             "target":"dtmi:sid:Common_Domain:Place;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"RealizedBy",
+            "target":"dtmi:sid:Resource_Domain:LogicalResource;1"
          }
       ]
    }
