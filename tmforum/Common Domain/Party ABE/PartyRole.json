@@ -48,6 +48,11 @@
             "@type":"Relationship",
             "name":"OwnsResourceDetails",
             "target":"dtmi:sid:Resource_Domain:LogicalResource;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"Owns",
+            "target":"dtmi:sid:Product_Domain:Product;1"
          }
       ]
    }
