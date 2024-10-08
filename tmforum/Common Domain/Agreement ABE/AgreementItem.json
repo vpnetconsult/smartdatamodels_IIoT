@@ -21,6 +21,11 @@
          },
          {
             "@type":"Relationship",
+            "name":"Involves",
+            "target":"dtmi:sid:Product_Domain:ProductSpecification;1"
+         },
+         {
+            "@type":"Relationship",
             "name":"GovernedBy",
             "target":"dtmi:sid:Common_Domain:AgreementTermOrCondition;1"
          }
