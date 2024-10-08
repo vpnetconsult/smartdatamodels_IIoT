@@ -10,6 +10,11 @@
             "@type":"Property",
             "name":"brand",
             "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"MadeAvailableAs",
+            "target":"dtmi:sid:Product_Domain:ProductOffering;1"
          }
       ]
    }
