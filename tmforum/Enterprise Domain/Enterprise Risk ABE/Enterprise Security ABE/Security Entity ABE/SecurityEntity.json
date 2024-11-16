@@ -1,1 +1,18 @@
-
+   {
+      "@id":"dtmi:sid:Enterprise_Domain:SecurityEntity;1",
+      "@type":"Interface",
+      "displayName":"SecurityEntity",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Relationship",
+            "name":"Exhibits",
+            "target":"dtmi:sid:Enterprise_Domain:SecurityVulnerabilty;1"
+         },
+         {
+            "@type":"Relationship",
+            "name":"RecognizedBy",
+            "target":"dtmi:sid:Common_Domain:EntityIdentification;1"
+         }
+      ]
+   }
