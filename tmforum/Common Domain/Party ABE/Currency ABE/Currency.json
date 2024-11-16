@@ -1,0 +1,13 @@
+   {
+      "@id":"dtmi:sid:Common_Domain:Currency;1",
+      "@type":"Interface",
+      "displayName":"Currency",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"validFor",
+            "schema":"dateTime"
+         }
+      ]
+   }
