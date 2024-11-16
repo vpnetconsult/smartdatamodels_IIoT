@@ -1,1 +1,23 @@
-
+   {
+      "@id":"dtmi:sid:Enterprise_Domain:SecurityThreatActor;1",
+      "@type":"Interface",
+      "displayName":"SecurityThreatActor",
+      "@context":"dtmi:dtdl:context;2",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"motive",
+            "schema":"string"
+         },
+         {
+            "@type":"Property",
+            "name":"reference",
+            "schema":"string"
+         },
+         {
+            "@type":"Relationship",
+            "name":"InvolvedIn",
+            "target":"dtmi:sid:Enterprise_Domain:SecurityIncident;1"
+         }
+      ]
+   }
