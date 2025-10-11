@@ -1,33 +1,118 @@
-   {
-      "@id":"dtmi:sid:Common_Domain:PartyIdentification;1",
-      "@type":"Interface",
-      "displayName":"PartyIdentification",
-      "@context":"dtmi:dtdl:context;2",
-      "contents":[
-         {
-            "@type":"Property",
-            "name":"ID",
-            "schema":"string"
-         },
-         {
-            "@type":"Property",
-            "name":"issueDate",
-            "schema":"dateTime"
-         },
-         {
-            "@type":"Property",
-            "name":"scan",
-            "schema":"string"
-         },
-         {
-            "@type":"Relationship",
-            "name":"PartyIdentificationDeliveredBy",
-            "target":"dtmi:sid:Common_Domain:Organization;1"
-         },
-         {
-            "@type":"Relationship",
-            "name":"PartyIdentificationWrittenIn",
-            "target":"dtmi:sid:Common_Domain:Language;1"
-         }
-      ]
-   }
+{
+  "@id": "dtmi:sid:Common_Domain:PartyIdentification;1",
+  "@type": "Interface",
+  "displayName": "PartyIdentification",
+  "@context": "dtmi:dtdl:context;2",
+  "comment": "Base entity for all party identification documents and credentials according to TMForum SID Party ABE",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "ID",
+      "schema": "string",
+      "comment": "Unique identifier for the party identification record"
+    },
+    {
+      "@type": "Property",
+      "name": "identificationId",
+      "schema": "string",
+      "comment": "The actual identification number (e.g., passport number, license number)"
+    },
+    {
+      "@type": "Property",
+      "name": "identificationType",
+      "schema": "string",
+      "comment": "Type of identification (e.g., Passport, National ID, Driver License)"
+    },
+    {
+      "@type": "Property",
+      "name": "issueDate",
+      "schema": "dateTime",
+      "comment": "Date when the identification was issued"
+    },
+    {
+      "@type": "Property",
+      "name": "expirationDate",
+      "schema": "dateTime",
+      "comment": "Date when the identification expires"
+    },
+    {
+      "@type": "Property",
+      "name": "issuingAuthority",
+      "schema": "string",
+      "comment": "Authority or organization that issued the identification"
+    },
+    {
+      "@type": "Property",
+      "name": "issuingCountry",
+      "schema": "string",
+      "comment": "Country where the identification was issued (ISO 3166-1 alpha-2 code)"
+    },
+    {
+      "@type": "Property",
+      "name": "scan",
+      "schema": "string",
+      "comment": "URL or base64 encoded scan/image of the identification document"
+    },
+    {
+      "@type": "Property",
+      "name": "status",
+      "schema": "string",
+      "comment": "Status of the identification (e.g., active, expired, revoked, suspended)"
+    },
+    {
+      "@type": "Property",
+      "name": "verified",
+      "schema": "boolean",
+      "comment": "Indicates whether the identification has been verified"
+    },
+    {
+      "@type": "Property",
+      "name": "verifiedDate",
+      "schema": "dateTime",
+      "comment": "Date when the identification was last verified"
+    },
+    {
+      "@type": "Property",
+      "name": "validFor",
+      "schema": {
+        "@id": "dtmi:sid:Common_Domain:timePeriod;1",
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "startDateTime",
+            "schema": "dateTime"
+          },
+          {
+            "name": "endDateTime",
+            "schema": "dateTime"
+          }
+        ]
+      },
+      "comment": "Time period during which the identification is valid"
+    },
+    {
+      "@type": "Property",
+      "name": "attachmentURL",
+      "schema": "string",
+      "comment": "URL to attached document or supporting files"
+    },
+    {
+      "@type": "Relationship",
+      "name": "PartyIdentificationIdentifies",
+      "target": "dtmi:sid:Common_Domain:Party;1",
+      "comment": "The party that this identification belongs to"
+    },
+    {
+      "@type": "Relationship",
+      "name": "PartyIdentificationDeliveredBy",
+      "target": "dtmi:sid:Common_Domain:Organization;1",
+      "comment": "The organization that delivered/issued this identification (relationship 0..*)"
+    },
+    {
+      "@type": "Relationship",
+      "name": "PartyIdentificationWrittenIn",
+      "target": "dtmi:sid:Common_Domain:Language;1",
+      "comment": "The language(s) in which the identification is written (relationship 0..*)"
+    }
+  ]
+}
