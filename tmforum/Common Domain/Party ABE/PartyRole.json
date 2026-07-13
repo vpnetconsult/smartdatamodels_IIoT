@@ -21,6 +21,11 @@
          },
          {
             "@type":"Relationship",
+            "name":"PlacePartyRoleAssoc",
+            "target":"dtmi:sid:Common_Domain:Place;1"
+         },
+         {
+            "@type":"Relationship",
             "name":"PartyRoleInvolvedInCommunicationInteractionRole",
             "target":"dtmi:sid:Common_Domain:CommunicationInteractionRole;1"
          },
