@@ -12,12 +12,12 @@
          {
             "@type":"Property",
             "name":"validFor",
-            "schema":"dtmi:sid:Common_Domain:timePeriod:1"
+            "schema":"dtmi:sid:Common_Domain:timePeriod;1"
          }
       ],
       "schemas":[
          {
-            "@id":"dtmi:sid:Common_Domain:timePeriod:1",
+            "@id":"dtmi:sid:Common_Domain:timePeriod;1",
             "@type":"Object",
             "fields": [
                {
