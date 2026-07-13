@@ -1,5 +1,5 @@
  {
-      "@id":"dtmi:sid:Common_Domain:Locallocation;1",
+      "@id":"dtmi:sid:Common_Domain:LocalLocation;1",
       "@type":"Interface",
       "displayName":"LocalLocation",
       "extends":"dtmi:sid:Common_Domain:LocalPlace;1",
