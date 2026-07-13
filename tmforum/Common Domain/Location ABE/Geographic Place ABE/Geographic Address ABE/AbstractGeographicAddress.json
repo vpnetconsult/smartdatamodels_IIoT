@@ -8,7 +8,7 @@
         {
             "@type":"Relationship",
             "name":"LocalAddressDefinedRelativeToGeoAddress",
-            "schema":"dtmi:sid:Common_Domain:LocalAddress"
+            "target":"dtmi:sid:Common_Domain:LocalAddress;1"
          }
       ]
    }
