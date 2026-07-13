@@ -10,9 +10,9 @@
             "schema":"string"
          },
          {
-            "@type":"Property",
-            "name":"place",
-            "schema":"string"
+            "@type":"Relationship",
+            "name":"BusinessInteractionLocationDescribedByPlace",
+            "target":"dtmi:sid:Common_Domain:Place;1"
          }
       ]
    }
