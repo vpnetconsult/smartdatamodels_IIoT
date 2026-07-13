@@ -13,7 +13,7 @@
         {
             "@type":"Relationship",
             "name":"GeographicAddressLocatedAt",
-            "schema":"dtmi:sid:Common_Domain:GeographicLocation"
+            "target":"dtmi:sid:Common_Domain:GeographicLocation;1"
          }
       ]
    }
