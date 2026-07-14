@@ -1,0 +1,14 @@
+   {
+      "@id":"dtmi:sid:Enterprise_Domain:ResourceSecurityEntity;1",
+      "@type":"Interface",
+      "displayName":"ResourceSecurityEntity",
+      "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Enterprise_Domain:SecurityEntity;1",
+      "contents":[
+         {
+            "@type":"Relationship",
+            "name":"ResourceServesAsResourceSecurityEntity",
+            "target":"dtmi:sid:Resource_Domain:Resource;1"
+         }
+      ]
+   }
