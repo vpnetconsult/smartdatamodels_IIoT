@@ -1,0 +1,14 @@
+   {
+      "@id":"dtmi:sid:Enterprise_Domain:PartyRoleSecurityEntity;1",
+      "@type":"Interface",
+      "displayName":"PartyRoleSecurityEntity",
+      "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Enterprise_Domain:SecurityEntity;1",
+      "contents":[
+         {
+            "@type":"Relationship",
+            "name":"PartyRoleServesAsPRSecurityEntity",
+            "target":"dtmi:sid:Common_Domain:PartyRole;1"
+         }
+      ]
+   }
