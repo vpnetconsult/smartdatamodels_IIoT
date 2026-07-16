@@ -1,4 +1,4 @@
-  {
+{
       "@id":"dtmi:sid:Resource_Domain:Resource;1",
       "@type":"Interface",
       "displayName":"Resource",
@@ -19,6 +19,11 @@
             "@type":"Relationship",
             "name":"PlaceLocatesResource",
             "target":"dtmi:sid:Common_Domain:Place;1"
+         },
+        {
+            "@type":"Relationship",
+            "name":"ResourceTakesOnRoles",
+            "target":"dtmi:sid:Resource_Domain:ResourceRole;1"
          }
       ]
    }
