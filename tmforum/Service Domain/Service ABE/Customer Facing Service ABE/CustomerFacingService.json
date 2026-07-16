@@ -1,0 +1,19 @@
+{
+      "@id":"dtmi:sid:Service_Domain:CustomerFacingService;1",
+      "@type":"Interface",
+      "displayName":"CustomerFacingService",
+      "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Service_Domain:Service;1",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"status",
+            "schema":"integer"
+         },
+         {
+            "@type":"Relationship",
+            "name":"CFServiceRequiresRFServices",
+            "target":"dtmi:sid:Service_Domain:ResourceFacingService;1"
+         }
+      ]
+   }
