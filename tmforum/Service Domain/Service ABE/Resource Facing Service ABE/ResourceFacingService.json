@@ -1,0 +1,19 @@
+{
+      "@id":"dtmi:sid:Service_Domain:ResourceFacingService;1",
+      "@type":"Interface",
+      "displayName":"ResourceFacingService",
+      "@context":"dtmi:dtdl:context;2",
+      "extends":"dtmi:sid:Service_Domain:Service;1",
+      "contents":[
+         {
+            "@type":"Property",
+            "name":"rfsStatus",
+            "schema":"integer"
+         },
+         {
+            "@type":"Relationship",
+            "name":"RFServiceConfiguredUsing",
+            "target":"dtmi:sid:Resource_Domain:Resource;1"
+         }
+      ]
+   }
