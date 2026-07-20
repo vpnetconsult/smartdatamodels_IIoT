@@ -1,15 +1,32 @@
-  {
-      "@id":"dtmi:sid:Resource_Domain:ResourceSpecification;1",
-      "@type":"Interface",
-      "displayName":"ResourceSpecification",
-      "@context":"dtmi:dtdl:context;2",
-      "extends":"dtmi:sid:Common_Domain:RootEntity;1",
-      "extends":"dtmi:sid:Common_Domain:EntitySpecification;1",
-      "contents":[
-         {
-            "@type":"Property",
-            "name":"version",
-            "schema":"string"
-         }
-      ]
-   }
+ {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:sid:Resource_Domain:ResourceSpecification;1",
+    "@type": "Interface",
+    "displayName": "ResourceSpecification",
+    "comment": "SID 22.5 · Resource Domain · Resource Specification ABE. Abstract; extends EntitySpecification (adds status, validFor; name/description/ID inherited from RootEntity). No own attributes. Key associations shown (SID defines 30+). From master XMI.",
+    "extends": "dtmi:sid:Common_Domain:EntitySpecification;1",
+    "contents": [
+      {
+        "@type": "Relationship",
+        "name": "SpecifiesResource",
+        "target": "dtmi:sid:Resource_Domain:Resource;1",
+        "comment": "The spec-to-instance link (Resource.SpecifiesResource inverse)"
+      },
+      {
+        "@type": "Relationship",
+        "name": "ResourceSpecificationTypeCategorizes",
+        "target": "dtmi:sid:Resource_Domain:ResourceSpecificationType;1"
+      },
+      {
+        "@type": "Relationship",
+        "name": "ResourceSpecVersionDetails",
+        "target": "dtmi:sid:Resource_Domain:ResourceSpecVersion;1",
+        "comment": "Version lives here, not as a scalar attribute"
+      },
+      {
+        "@type": "Relationship",
+        "name": "ResourceSpecRunsSoftwareSpec",
+        "target": "dtmi:sid:Resource_Domain:SoftwareSpecification;1"
+      }
+    ]
+  }
