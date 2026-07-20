@@ -90,4 +90,5 @@
         "target": "dtmi:sid:Resource_Domain:CommonPlatformEnumeration;1",
         "comment": "CPE — the bridge to CVE matching"
       }
+    ]
   }
