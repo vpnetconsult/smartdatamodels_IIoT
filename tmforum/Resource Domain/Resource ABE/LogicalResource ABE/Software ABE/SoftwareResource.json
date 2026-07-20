@@ -32,4 +32,5 @@
         "target": "dtmi:sid:Resource_Domain:Resource;1",
         "comment": "Software realized on / installed on a Resource (Device or PhysicalResource)."
       }
+    ]
   }
