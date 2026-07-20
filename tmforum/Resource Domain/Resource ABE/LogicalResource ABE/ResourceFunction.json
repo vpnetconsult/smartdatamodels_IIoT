@@ -29,4 +29,5 @@
         "target": "dtmi:sid:Resource_Domain:ConnectionPoint;1",
         "comment": "Output reference points"
       }
+    ]
   }
