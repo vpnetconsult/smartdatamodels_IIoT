@@ -1,0 +1,93 @@
+  {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:sid:Resource_Domain:InstalledSoftware;1",
+    "@type": "Interface",
+    "displayName": "InstalledSoftware",
+    "comment": "SID 22.5 · Software Resource and Software ABE. Abstract. Software identity/version is carried via SoftwareSpecification (SSpecImplements) and CPE (SoftwareIdentifiedByCPEName), NOT a direct attribute. From master XMI.",
+    "extends": "dtmi:sid:Resource_Domain:SoftwareResource;1",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "isUTCTime",
+        "schema": "boolean"
+      },
+      {
+        "@type": "Property",
+        "name": "lastStartTime",
+        "schema": "dateTime"
+      },
+      {
+        "@type": "Property",
+        "name": "numberProcessesActiveCurrent",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "numUsersCurrent",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "pagingFileSizeCurrent",
+        "schema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "amount",
+              "schema": "double"
+            },
+            {
+              "name": "units",
+              "schema": "string"
+            }
+          ]
+        },
+        "comment": "SID Quantity datatype"
+      },
+      {
+        "@type": "Property",
+        "name": "processMemorySizeCurrent",
+        "schema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "amount",
+              "schema": "double"
+            },
+            {
+              "name": "units",
+              "schema": "string"
+            }
+          ]
+        },
+        "comment": "SID Quantity datatype"
+      },
+      {
+        "@type": "Property",
+        "name": "serialNumber",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "swapSpaceUsedCurrent",
+        "schema": "integer"
+      },
+      {
+        "@type": "Relationship",
+        "name": "ResourceUses",
+        "target": "dtmi:sid:Resource_Domain:Resource;1",
+        "comment": "Software runs on / uses a Resource (host) — mult 1..1"
+      },
+      {
+        "@type": "Relationship",
+        "name": "SSpecImplements",
+        "target": "dtmi:sid:Resource_Domain:SoftwareSpecification;1",
+        "comment": "Realizes a SoftwareSpecification (holds name/version)"
+      },
+      {
+        "@type": "Relationship",
+        "name": "SoftwareIdentifiedByCPEName",
+        "target": "dtmi:sid:Resource_Domain:CommonPlatformEnumeration;1",
+        "comment": "CPE — the bridge to CVE matching"
+      }
+  }
