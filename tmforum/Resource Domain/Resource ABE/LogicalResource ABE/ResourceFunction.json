@@ -1,0 +1,32 @@
+ {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:sid:Resource_Domain:ResourceFunction;1",
+    "@type": "Interface",
+    "displayName": "ResourceFunction",
+    "comment": "SID 22.5 · Resource Domain · Logical Resource ABE. Concrete. NO own attributes in XMI. The precise SID class for a 5G NF; realized BY InstalledSoftware and wired via ConnectionPoints. From master XMI.",
+    "extends": "dtmi:sid:Resource_Domain:LogicalResource;1",
+    "contents": [
+      {
+        "@type": "Relationship",
+        "name": "ResourceFunctionProvidedByInstalledSoftware",
+        "target": "dtmi:sid:Resource_Domain:InstalledSoftware;1",
+        "comment": "NF realized by its software (mult 1..* / 0..1)"
+      },
+      {
+        "@type": "Relationship",
+        "name": "ResourceFunctionProvidedByPhysicalBlackBox",
+        "target": "dtmi:sid:Resource_Domain:PhysicalBlackBox;1"
+      },
+      {
+        "@type": "Relationship",
+        "name": "CPIsAnInputFor",
+        "target": "dtmi:sid:Resource_Domain:ConnectionPoint;1",
+        "comment": "Input reference points (e.g. N2 into AMF)"
+      },
+      {
+        "@type": "Relationship",
+        "name": "CPIsAnOutputFor",
+        "target": "dtmi:sid:Resource_Domain:ConnectionPoint;1",
+        "comment": "Output reference points"
+      }
+  }
