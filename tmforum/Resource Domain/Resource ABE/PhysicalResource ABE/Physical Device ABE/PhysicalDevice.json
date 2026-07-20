@@ -1,0 +1,49 @@
+  {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:sid:Resource_Domain:PhysicalDevice;1",
+    "@type": "Interface",
+    "displayName": "PhysicalDevice",
+    "comment": "SID 22.5 · Resource Domain · Physical Device ABE. Abstract. Physical network node / equipment (gNodeB hardware). From master XMI. NB: distinct from 'Device' (extends ManagedEntity, LogicalResource Examples ABE).",
+    "extends": "dtmi:sid:Resource_Domain:PhysicalResource;1",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "backplaneIndependent",
+        "schema": "boolean"
+      },
+      {
+        "@type": "Property",
+        "name": "backplaneNumber",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "canMixPower",
+        "schema": "boolean"
+      },
+      {
+        "@type": "Property",
+        "name": "configurationOrder",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "deviceGroupID",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "isComposite",
+        "schema": "boolean"
+      },
+      {
+        "@type": "Relationship",
+        "name": "PhysicalDeviceConsistsOf",
+        "target": "dtmi:sid:Resource_Domain:Hardware;1"
+      },
+      {
+        "@type": "Relationship",
+        "name": "HasPhysicalDeviceRoles",
+        "target": "dtmi:sid:Resource_Domain:PhysicalDeviceRole;1"
+      }
+  }
