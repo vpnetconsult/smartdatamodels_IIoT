@@ -1,0 +1,35 @@
+ {
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:sid:Resource_Domain:SoftwareResource;1",
+    "@type": "Interface",
+    "displayName": "SoftwareResource",
+    "comment": "SID GB922 Resource · Logical Resource ABE · Software ABE. Abstract in SID (DTDL v2 cannot express abstract). AUTHORED to SID 22.5 structure — reconcile property set vs master XMI.",
+    "extends": "dtmi:sid:Resource_Domain:LogicalResource;1",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "softwareName",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "version",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "vendor",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "softwareCreationDate",
+        "schema": "dateTime"
+      },
+      {
+        "@type": "Relationship",
+        "name": "SoftwareInstalledOn",
+        "target": "dtmi:sid:Resource_Domain:Resource;1",
+        "comment": "Software realized on / installed on a Resource (Device or PhysicalResource)."
+      }
+  }
