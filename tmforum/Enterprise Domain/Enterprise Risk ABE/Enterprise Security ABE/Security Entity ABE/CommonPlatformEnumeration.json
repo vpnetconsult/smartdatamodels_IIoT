@@ -1,0 +1,16 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:sid:Enterprise_Domain:CommonPlatformEnumeration;1",
+  "@type": "Interface",
+  "displayName": "CommonPlatformEnumeration",
+  "description": "TMForum SID V22.5 | Enterprise Domain | Enterprise Security ABE | Security Entity ABE. Concrete class, no generalization. Holds the CPE name that is the key for matching an asset to external vulnerability sources (NIST NVD). Per ADR 'Security overlay mastered by MITRE (not SID)', this class is IN SCOPE for the SID twin because cpeName is stable asset identity, not vulnerability identity. xmi.id EAID_E306F63A_8A53_4633_A616_732EE3640839. NOTE: the documentation tag on this class in InformationFramework22.5.xmi is copy-paste residue from SecurityVulnerabilityFixAction and does not describe CPE; it has been deliberately not reproduced here.",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "cpeName",
+      "schema": "string",
+      "displayName": "cpeName",
+      "description": "Common Platform Enumeration name, e.g. cpe:2.3:o:juniper:junos:24.2:r1-s2:*:*:*:*:*:*. XMI multiplicity 1..1."
+    }
+  ]
+}
