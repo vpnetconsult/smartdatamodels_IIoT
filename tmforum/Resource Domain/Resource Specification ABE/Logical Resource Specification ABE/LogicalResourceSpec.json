@@ -1,0 +1,9 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:sid:Resource_Domain:LogicalResourceSpec;1",
+  "@type": "Interface",
+  "displayName": "LogicalResourceSpec",
+  "description": "TMForum SID V22.5. True XMI package nesting: Resource Domain / Resource Specification ABE / Logical Resource Specification ABE. Concrete in XMI. No own attributes - inherits status and validFor from EntitySpecification and name, description, ID from RootEntity. Intermediate spec class between ResourceSpecification and the software specification families. Loaded to complete the SoftwareSpecification extends chain. xmi.id EAID_BD01D71B_89B5_47b2_A2E0_63A8F1D7B02A.",
+  "extends": "dtmi:sid:Resource_Domain:ResourceSpecification;1",
+  "contents": []
+}
