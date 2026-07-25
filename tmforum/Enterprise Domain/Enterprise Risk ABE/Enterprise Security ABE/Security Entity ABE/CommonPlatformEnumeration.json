@@ -10,7 +10,7 @@
       "name": "cpeName",
       "schema": "string",
       "displayName": "cpeName",
-      "description": "Common Platform Enumeration name, e.g. cpe:2.3:o:juniper:junos:24.2:r1-s2:*:*:*:*:*:*. XMI multiplicity 1..1."
+      "comment": "Common Platform Enumeration name, e.g. cpe:2.3:o:juniper:junos:24.2:r1-s2:*:*:*:*:*:*. XMI multiplicity 1..1."
     }
   ]
 }
