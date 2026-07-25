@@ -87,7 +87,7 @@
       {
         "@type": "Relationship",
         "name": "SoftwareIdentifiedByCPEName",
-        "target": "dtmi:sid:Resource_Domain:CommonPlatformEnumeration;1",
+        "target": "dtmi:sid:Enterprise_Domain:CommonPlatformEnumeration;1",
         "comment": "CPE — the bridge to CVE matching"
       }
     ]
