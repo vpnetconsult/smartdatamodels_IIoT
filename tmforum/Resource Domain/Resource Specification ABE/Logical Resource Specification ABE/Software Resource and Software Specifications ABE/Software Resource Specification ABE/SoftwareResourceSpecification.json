@@ -10,7 +10,7 @@
       "@type": "Property",
       "name": "buildNumber",
       "schema": "string",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
@@ -22,49 +22,49 @@
           { "name": "units", "schema": "string" }
         ]
       },
-      "description": "XMI type Quantity, mapped to Object{amount, units} per repo convention. Multiplicity 1..1."
+      "comment": "XMI type Quantity, mapped to Object{amount, units} per repo convention. Multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "isDistributable",
       "schema": "boolean",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "isExperimental",
       "schema": "boolean",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "maintenanceVersion",
       "schema": "string",
-      "description": "Patch or maintenance level. XMI multiplicity 1..1."
+      "comment": "Patch or maintenance level. XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "majorVersion",
       "schema": "string",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "minorVersion",
       "schema": "string",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "otherDesignator",
       "schema": "string",
-      "description": "Vendor-specific version designator, e.g. a Junos service release such as R1-S2. XMI multiplicity 1..1."
+      "comment": "Vendor-specific version designator, e.g. a Junos service release such as R1-S2. XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "releaseStatus",
       "schema": "integer",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     }
   ]
 }
