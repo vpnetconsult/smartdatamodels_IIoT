@@ -10,19 +10,19 @@
       "@type": "Property",
       "name": "numberProcessActiveTotal",
       "schema": "integer",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     },
     {
       "@type": "Property",
       "name": "numUsersMax",
       "schema": "integer",
-      "description": "XMI multiplicity 1..1."
+      "comment": "XMI multiplicity 1..1."
     },
     {
       "@type": "Relationship",
       "name": "CompositeSoftwareSpecComprisedOf",
       "target": "dtmi:sid:Resource_Domain:SoftwareSpecification;1",
-      "description": "Composite pattern - self-referencing per XMI."
+      "comment": "Composite pattern - self-referencing per XMI."
     },
     {
       "@type": "Relationship",
