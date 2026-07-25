@@ -1,0 +1,43 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:sid:Resource_Domain:SoftwareSpecification;1",
+  "@type": "Interface",
+  "displayName": "SoftwareSpecification",
+  "description": "TMForum SID V22.5. True XMI package nesting: Resource Domain / Resource Specification ABE / Logical Resource Specification ABE / Software Resource and Software Specifications ABE / Software Specification ABE. Abstract in SID (DTDL v2 cannot express abstract). Target of InstalledSoftware.SSpecImplements - the software identity link. Own attributes are only numberProcessActiveTotal and numUsersMax; name and description come from RootEntity and the version attributes come from SoftwareResourceSpecification. Subclasses in XMI: AtomicSoftwareSpecification, CompositeSoftwareSpecification. xmi.id EAID_51B62A1E_7E78_4d5d_A8D4_4C06158A51D9.",
+  "extends": "dtmi:sid:Resource_Domain:SoftwareResourceSpecification;1",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "numberProcessActiveTotal",
+      "schema": "integer",
+      "description": "XMI multiplicity 1..1."
+    },
+    {
+      "@type": "Property",
+      "name": "numUsersMax",
+      "schema": "integer",
+      "description": "XMI multiplicity 1..1."
+    },
+    {
+      "@type": "Relationship",
+      "name": "CompositeSoftwareSpecComprisedOf",
+      "target": "dtmi:sid:Resource_Domain:SoftwareSpecification;1",
+      "description": "Composite pattern - self-referencing per XMI."
+    },
+    {
+      "@type": "Relationship",
+      "name": "SoftwareSpecificationUses",
+      "target": "dtmi:sid:Resource_Domain:SoftwareSpecification;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "SoftwareSpecificationRequires",
+      "target": "dtmi:sid:Resource_Domain:SoftwareSpecification;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "SoftwareSpecReferences",
+      "target": "dtmi:sid:Resource_Domain:SoftwareSpecification;1"
+    }
+  ]
+}
